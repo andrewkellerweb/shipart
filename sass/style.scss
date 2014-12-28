@@ -1,0 +1,730 @@
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/media_query';
+
+body {
+	line-height: 2em;
+	color: #636262;
+	font-family: 'Arvo', serif;
+	overflow-x: hidden;
+}
+
+header, section, footer {
+	font-size: 1.3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Arvo', serif;
+}
+
+h1 {
+	font-size:2em;
+	line-height:1.8em;
+}
+
+h2 {
+	font-size: 1.8em;
+	line-height: 1.6em;
+}
+
+h3 {
+	font-size: 1.4em;
+	line-height: 1.4em;
+	color: #778e1d;
+	text-transform: uppercase;
+	margin-top: 1.5em;
+}
+h4 {
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: #778e1d;
+	margin-top: 1.5em;
+}
+h5 {
+	font-size:1.2em;
+	line-height: 1em;
+}
+h6 {
+	font-size:1em;
+	line-height:.8em;
+}
+
+a {
+	color: #d05b14;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #636262;
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+ul {
+	margin: 0 0 20px 30px;
+	padding: 0;	
+}
+
+blockquote {
+	
+}
+
+header.main {
+	background: url(images/bg-header-wrap.gif) repeat-x 0 0;	
+}
+
+header.main .container-common {
+	background: url(images/bg-header.jpg) no-repeat 0 0;	
+}
+
+header.main h1 {
+	float: left;
+	margin: 28px 0 40px 23px;
+}
+
+header.main h1 a {
+	background: url(images/logo.png) no-repeat 0 0;
+	display: block;
+	width: 169px;
+	height: 100px;
+	text-indent: -9999px;
+}
+
+header nav {
+	float: right;
+	font-size: 1.15em;
+	max-width: 750px;
+	ul {
+		float: right;
+		margin: 0;
+		padding: 0;	
+		li {
+			float: left;
+			background: none;	
+			margin: 0;
+			&.last a {
+				padding: 30px 0px 30px 15px;
+			}
+		}
+		.active a {
+			color: #4e4e50;
+		}
+		&.top {
+			a {
+				display: block;
+				padding: 10px 15px;
+				text-transform: uppercase;
+				font-size: .75em;
+			}
+		}
+		&.main {
+			a {
+				display: block;
+				padding: 23px 15px;
+			}
+		}
+	}
+}
+
+section.featured {
+	background: #2f2c26;
+}
+
+section.featured .container-common{
+	height: 307px;
+	position: relative;
+}
+
+.page-home .container-slider {
+	height: 286px;
+	border: 5px solid #ffffff;
+	top: -28px;
+	position: absolute;
+	width: 950px;
+}
+
+.container-slider ul.pagination {
+	padding: 13px 0 0;
+	margin: 0px auto 0;
+	width: 110px;
+}
+
+.container-slider ul.pagination a {
+	display: block;
+	width: 13px;
+	height: 13px;
+	padding: 4px;
+	background: url(images/dot-gray.png) no-repeat center center;
+	text-indent: -9999px;
+}
+
+.container-slider ul.pagination li.current a, .container-slider ul.pagination a:hover {
+	background: url(images/dot-orange.png) no-repeat center center;
+}
+
+.container-slider ul.pagination li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+section.content {
+	background: url(images/dots-footer.png) repeat-x 0 bottom;
+	margin: 0 0 25px;
+}
+
+section.content ul {
+	
+}
+
+section.content li {
+	background: url(images/bullet-orange.png) no-repeat 0 9px;
+	padding: 0 0 0 10px;
+}
+
+section.content aside li {
+	background: none;
+	padding: 0;
+}
+
+.page-home section.content {
+	padding: 25px 0 50px;
+}
+
+.page-home section.content article {
+	padding: 0;
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+}
+
+.page-home section.content article.last {
+	margin: 0;	
+}
+
+.page-home section.content p {
+	margin: 1em 0;
+}
+
+.btn-more {
+	font-size: 1em;
+	line-height: 1em;
+	text-transform: uppercase;
+	padding: 1px 25px 5px 0;
+	background: url(images/arrow-orange.png) no-repeat right 0;
+	font-family: 'Arvo', serif;
+}
+
+.btn-more:hover {
+	background: url(images/arrow-orange.png) no-repeat right -100px;
+}
+
+.btn-back {
+	font-size: 1em;
+	line-height: 1em;
+	text-transform: uppercase;
+	padding: 1px 0px 5px 25px;
+	background: url(images/arrow-orange-back.png) no-repeat left 0;
+	font-family: 'Arvo', serif;
+}
+
+.btn-back.right {
+	float: right;
+}
+
+.btn-back:hover {
+	background: url(images/arrow-orange-back.png) no-repeat left -100px;
+}
+
+.page-home .testimonial blockquote {
+	padding: 0 0 20px 50px;
+	background: url(images/quote.png) no-repeat 0 3px;
+}
+
+.testimonial h4 {
+	font-weight: bold;
+	font-style: italic;
+	margin: 0;
+}
+
+footer {
+	padding: 0 0 40px;	
+}
+
+footer h3 {
+	font-family: 'Arvo', serif;
+}
+
+footer .col1, footer .col2, footer .col3 {
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+}
+
+footer .col2 {
+	text-align: center;	
+}
+
+footer .col3 {
+	text-align: right;
+	margin: 0;	
+}
+
+footer .col1 ul, footer .col1 li {
+	margin: 0;	
+	padding: 0;
+}
+
+/* end HOME */
+
+/* begin INSIDE */
+
+section.title {
+	background: #2f2c28;
+}
+
+section.title .container-common {
+	background: url(images/bg-title.gif) repeat-y 0 0;
+}
+
+section.title h2 {
+	padding: 33px 65px 33px 65px;
+	color: #ffffff;
+	margin: 0 0 0 1px;
+	font-family: 'Arvo', serif;
+	background: #2F2C28;
+	float: left;
+}
+
+.page-inside section.content {
+	padding: 45px 0;
+}
+
+body.one-col .main {
+}
+
+body.two-col section .main {
+	float: left;
+	width: 540px;
+	margin: 0 30px 0 0;
+}
+
+body.two-col section aside {
+	float: left;
+	width: 390px;
+}
+
+section.content aside nav {
+	background: #eeeeee;
+	border: 5px solid #cdcdcd;
+	padding: 20px;
+	font-size: 1.1em;
+	margin: 0 0 20px 0px;
+}
+
+section.content aside nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+section.content aside nav li.active a {
+	color: #4E4E50;
+}
+
+.page-inside .container-slider img {
+	border: 5px solid #cdcdcd;
+}
+
+.page-inside .container-slider nav {
+	margin: 8px auto 0;
+	width: 110px;
+}
+
+.page-inside .container-slider nav a {
+	display: block;
+	width: 13px;
+	height: 13px;
+	padding: 4px;
+	background: url(images/dot-gray.png) no-repeat center center;
+}
+
+.page-inside .container-slider li.active a, .page-inside .container-slider nav a:hover {
+	background: url(images/dot-orange.png) no-repeat center center;
+}
+
+.page-inside .container-slider nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.page-inside .container-slider nav li {
+	float: left;
+	margin: 0;
+}
+
+.page-inside .slides_container {
+	min-height: 390px;
+}
+
+.page-home .slides_container {
+	min-height: 286px;
+}
+
+section.content #gallery ul {
+	padding: 0;
+	margin: 0;
+}
+
+section.content #gallery li {
+	background: none;
+	padding: 0;
+	border: 5px solid #CDCDCD;
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+section.content #gallery li:hover {
+	border: 5px solid #636262;
+}
+
+section.content #gallery li.first {
+	clear: left;
+}
+
+section.content #gallery li.last {
+	margin: 0 0 15px 0;
+}
+
+section.content #gallery li a img {
+	display: block;
+	
+}
+
+section.content #gallery .col2 img {
+	width: 177px;
+}
+
+.lightbox-nav-off #lightbox-nav-btnNext, .lightbox-nav-off #lightbox-nav-btnPrev {
+	display: none !important;
+}
+ 
+/* style for horizontal nav */
+#navigation_horiz {
+
+}
+
+#navigation_horiz li {
+	position:relative
+}
+
+#navigation_horiz ul.dropdown {
+	position:absolute; 
+	opacity: .9;
+	background: #d36522 url(images/bg-dropdown-line.gif) repeat-y 16px 0;
+	padding: 10px 0 10px 0;
+	z-index: 100;
+	top: 64px !important;
+	min-width: 210px;
+	font-size: .9em;
+	line-height: 1.4em
+}
+
+#navigation_horiz ul.dropdown li {
+	float: none;
+	margin: 0;
+}
+
+#navigation_horiz ul.dropdown li a {
+	padding: 6px 20px 6px 30px;
+	color: #fff;
+}
+
+#navigation_horiz ul.dropdown li a:hover {
+	background: #df8d5c;
+}
+
+table {
+	margin-bottom: 30px;
+	border-bottom: 5px solid #d05b14;
+}
+
+.schedule table {
+	width: 100%;
+}
+
+table td, table th {
+	padding: 15px 10px;
+	text-align: left;
+}
+
+table tr.even {
+	background: #e8e5df;
+}
+
+table th, table td.first {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.schedule h3, .rates h3 {
+	margin: 0;
+	padding-left: 10px;
+}
+
+.schedule2 h3 {
+	margin: 0;
+	padding-left: 101px;
+}
+
+body.one-col article {
+	margin-bottom: 50px;
+}
+
+.rates table {
+	width: 70%;
+}
+
+table tr.divider {
+	border-bottom: 5px solid #d05b14;
+}
+
+article.content-2col .col1, article.content-2col .col2 {
+	float: left;
+	width: 460px;
+}
+
+article.content-2col .col1 {
+	margin-right: 40px;
+}
+
+.schedule2 table {
+	width: 80%;
+}
+
+.slides_container {
+	background: none !important;
+}
+
+form table {
+	border: none;
+	width: 80%
+}
+
+form table td:nth-child(1) {
+	width: 40%;
+}
+
+form table td {
+	padding: 10px 0;
+}
+
+form .field_shortest {
+	width: 80px;
+}
+
+form .field_med {
+	width: 180px;
+}
+
+form .field_long {
+	width: 280px;
+}
+
+form textarea {
+	width: 280px;
+}
+
+input[type=text], textarea {
+	border: 2px solid #b8b8b8;
+	padding: 5px;
+}
+
+.required_text {
+    background-image: url("images/asterisk.gif");
+    background-position: 15px 7px;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 25px;
+}
+
+.red {
+    color: #D90000;
+}
+
+.three-col img {
+	width: 110px;
+}
+
+.temp {
+	float: none;
+	margin-left: 570px;
+}
+
+.icons-social .fb {
+	display: inline-block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 50px;
+	width: 50px;
+	background-color: #e5dfd4;
+	background-image: url("images/sprite-icons.png");
+	background-position: 17px 11px;
+	background-repeat: no-repeat;
+}
+
+.icons-social a:hover {
+	background-color: #2f2c26;
+}
+
+/* ---------------
+ * 003 - Slidebars
+ */
+
+.sb-slidebar {
+	height: 100%;
+	overflow-y: auto; /* Enable vertical scrolling on Slidebars when needed. */
+	position: fixed;
+	top: 0;
+	z-index: 0; /* Slidebars sit behind sb-site. */
+	display: none; 
+	-webkit-transform: translate(0px); /* Fixes issues with translated and z-indexed elements on iOS 7. */
+	@include bp(medium) {
+		position: static;
+		top: 0;
+		z-index: 0; /* Slidebars sit behind sb-site. */
+		display: block; 
+	}
+}
+
+.sb-left {
+	left: 0; /* Set Slidebar to the left. */
+}
+
+.sb-right {
+	right: 0; /* Set Slidebar to the right. */
+}
+
+html.sb-static .sb-slidebar,
+.sb-slidebar.sb-static {
+	position: absolute; /* Makes Slidebars scroll naturally with the site, and unfixes them for Android Browser < 3 and iOS < 5. */
+}
+
+.sb-slidebar.sb-active {
+	display: block; /* Makes Slidebars visibile when open. Changed from visibility to display to allow -webkit-overflow-scrolling. */
+}
+
+.sb-style-overlay {
+	z-index: 9999; /* Set z-index high to ensure it overlays any other site elements. */
+}
+
+.sb-momentum-scrolling {
+	-webkit-overflow-scrolling: touch; /* Adds native momentum scrolling for iOS & Android devices. */
+}
+
+/* Slidebar widths for browsers/devices that don't support media queries. */
+	.sb-slidebar {
+		width: 30%;
+	}
+	
+	.sb-width-thin {
+		width: 15%;
+	}
+	
+	.sb-width-wide {
+		width: 45%;
+	}
+
+@media (max-width: 480px) { /* Slidebar widths on extra small screens. */
+	.sb-slidebar {
+		width: 70%;
+	}
+	
+	.sb-width-thin {
+		width: 55%;
+	}
+	
+	.sb-width-wide {
+		width: 85%;
+	}
+}
+
+@media (min-width: 481px) { /* Slidebar widths on small screens. */
+	.sb-slidebar {
+		width: 55%;
+	}
+	
+	.sb-width-thin {
+		width: 40%;
+	}
+	
+	.sb-width-wide {
+		width: 70%;
+	}
+}
+
+@media (min-width: 768px) { /* Slidebar widths on medium screens. */
+	.sb-slidebar {
+		width: 40%;
+	}
+	
+	.sb-width-thin {
+		width: 25%;
+	}
+	
+	.sb-width-wide {
+		width: 55%;
+	}
+}
+
+@media (min-width: 992px) { /* Slidebar widths on large screens. */
+	.sb-slidebar {
+		width: 30%;
+	}
+	
+	.sb-width-thin {
+		width: 15%;
+	}
+	
+	.sb-width-wide {
+		width: 45%;
+	}
+}
+
+@media (min-width: 1200px) { /* Slidebar widths on extra large screens. */
+	.sb-slidebar {
+		width: 20%;
+	}
+	
+	.sb-width-thin {
+		width: 5%;
+	}
+	
+	.sb-width-wide {
+		width: 35%;
+	}
+}
+
+/* ---------------
+ * 004 - Animation
+ */
+
+.sb-slide, #sb-site, .sb-site-container, .sb-slidebar {
+	-webkit-transition: -webkit-transform 400ms ease;
+	   -moz-transition: -moz-transform 400ms ease;
+	     -o-transition: -o-transform 400ms ease;
+	        transition: transform 400ms ease;
+	-webkit-transition-property: -webkit-transform, left, right; /* Add left/right for Android < 4.4. */
+	-webkit-backface-visibility: hidden; /* Prevents flickering. This is non essential, and you may remove it if your having problems with fixed background images in Chrome. */
+}
+
+/* --------------------
+ * 005 - Helper Classes
+ */
+ 
+.sb-hide { 
+	display: none; /* Optionally applied to control classes when Slidebars is disabled over a certain width. */
+}
