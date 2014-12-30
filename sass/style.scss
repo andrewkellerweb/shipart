@@ -5,7 +5,7 @@
 body {
 	line-height: 2em;
 	color: #636262;
-	font-family: 'Arvo', serif;
+	font-family: 'Open Sans', serif;
 	overflow-x: hidden;
 }
 
@@ -20,11 +20,13 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size:2em;
 	line-height:1.8em;
+	font-family: 'Arvo', sans-serif;
 }
 
 h2 {
 	font-size: 1.8em;
 	line-height: 1.6em;
+	font-family: 'Arvo', sans-serif;
 }
 
 h3 {
@@ -33,17 +35,22 @@ h3 {
 	color: #778e1d;
 	text-transform: uppercase;
 	margin-top: 1.5em;
+	font-family: 'Arvo', sans-serif;
 }
+
 h4 {
 	font-size: 1.2em;
 	line-height: 1.4em;
 	color: #778e1d;
 	margin-top: 1.5em;
+	font-family: 'Arvo', sans-serif;
 }
+
 h5 {
 	font-size:1.2em;
 	line-height: 1em;
 }
+
 h6 {
 	font-size:1em;
 	line-height:.8em;
@@ -73,59 +80,158 @@ blockquote {
 
 header.main {
 	background: url(images/bg-header-wrap.gif) repeat-x 0 0;	
-}
-
-header.main .container-common {
-	background: url(images/bg-header.jpg) no-repeat 0 0;	
-}
-
-header.main h1 {
-	float: left;
-	margin: 28px 0 40px 23px;
-}
-
-header.main h1 a {
-	background: url(images/logo.png) no-repeat 0 0;
-	display: block;
-	width: 169px;
-	height: 100px;
-	text-indent: -9999px;
+	.container-common {
+		background: url(images/bg-header.jpg) no-repeat 0 0;	
+	}
+	.logo {
+		float: left;
+		margin: 28px 0 40px 23px;
+		background: url(images/logo.png) no-repeat 0 0;
+		display: block;
+		width: 169px;
+		height: 100px;
+		text-indent: -9999px;
+	}
 }
 
 header nav {
-	float: right;
+	font-family: 'Arvo', sans-serif;
 	font-size: 1.15em;
-	max-width: 750px;
-	ul {
+	@include bp(bp-xsmall) {
+		max-width: 750px;
 		float: right;
-		margin: 0;
-		padding: 0;	
-		li {
-			float: left;
-			background: none;	
+		flex
+		ul {
+			float: right;
 			margin: 0;
-			&.last a {
-				padding: 30px 0px 30px 15px;
-			}
-		}
-		.active a {
-			color: #4e4e50;
-		}
-		&.top {
-			a {
+			padding: 0;	
+			display: none;
+			@include bp(bp-medium) {
 				display: block;
-				padding: 10px 15px;
-				text-transform: uppercase;
-				font-size: .75em;
+			}
+			li {
+				@include flexbox();
+				float: left;
+				background: none;	
+				margin: 0;
+				&.last a {
+					padding: 30px 0px 30px 15px;
+				}
+			}
+			.active a {
+				color: #4e4e50;
+			}
+			&.top {
+				a {
+					display: block;
+					padding: 10px 15px;
+					text-transform: uppercase;
+					font-size: .75em;
+				}
+			}
+			&.main {
+				a {
+					display: block;
+					padding: 23px 15px;
+				}
 			}
 		}
-		&.main {
-			a {
-				display: block;
-				padding: 23px 15px;
-			}
+		.mobile-button {
+			display: none;
 		}
 	}
+}
+
+.slidebar {
+	right: -250px;
+	transition: right .7s ease-out;
+	position: absolute;
+	width: 250px;
+	z-index: 9999;
+	&.active {
+		right: 0;
+	}
+	.is-open 
+	  .inner-btn {
+	    background: none;
+	    
+	    &::before, &::after {
+	      top: 20px; 
+	      -webkit-transition: all 0.4s 0.2s ease-in-out; 
+	      transition: all 0.4s 0.2s ease-in-out;
+	    }
+	    &::before {
+	      -webkit-transform: rotate(-45deg); 
+	      -ms-transform: rotate(-45deg); 
+	      transform: rotate(-45deg);
+	    }
+	    &::after {
+	      -webkit-transform: rotate(45deg); 
+	      -ms-transform: rotate(45deg); 
+	      transform: rotate(45deg);
+	    }
+	 } 
+
+	.srt {
+	  border: 0; 
+	  clip: rect(0 0 0 0); 
+	  height: 1px; 
+	  margin: -1px; 
+	  overflow: hidden; 
+	  padding: 0; 
+	  position: absolute; 
+	  width: 1px; 
+	} 
+
+	.mobile-button { 
+	  background: $c-orange;
+	  position:absolute; 
+	  top: 70px; 
+	  left: -50px; 
+	  width: 35px; 
+	  height: 34px; 
+	  -webkit-backface-visibility: hidden; 
+	  z-index: 5; 
+	  padding: 5px;
+		@include bp(bp-xsmall) {
+			display: none;
+		}
+	} 
+
+	.inner-btn {
+	  background: white; 
+	  display: block; 
+	  height: 5px; 
+	  margin-top: 14px; 
+	  width: 35px; 
+	  -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;
+	  
+	  &::before, &::after {
+	    background: white; 
+	    content: ""; 
+	    display: block; 
+	    height: 5px; 
+	    position: absolute; 
+	    width: 35px; 
+	    z-index: -1; 
+	    -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; 
+	  }
+	  &::before {
+	    top: 9px;
+	  }
+	  &::after {
+	    top: 29px;
+	  }
+	}
+}
+
+
+
+
+span.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 section.featured {
@@ -580,151 +686,8 @@ input[type=text], textarea {
 	background-color: #2f2c26;
 }
 
-/* ---------------
- * 003 - Slidebars
- */
 
-.sb-slidebar {
-	height: 100%;
-	overflow-y: auto; /* Enable vertical scrolling on Slidebars when needed. */
-	position: fixed;
-	top: 0;
-	z-index: 0; /* Slidebars sit behind sb-site. */
-	display: none; 
-	-webkit-transform: translate(0px); /* Fixes issues with translated and z-indexed elements on iOS 7. */
-	@include bp(medium) {
-		position: static;
-		top: 0;
-		z-index: 0; /* Slidebars sit behind sb-site. */
-		display: block; 
-	}
-}
 
-.sb-left {
-	left: 0; /* Set Slidebar to the left. */
-}
 
-.sb-right {
-	right: 0; /* Set Slidebar to the right. */
-}
 
-html.sb-static .sb-slidebar,
-.sb-slidebar.sb-static {
-	position: absolute; /* Makes Slidebars scroll naturally with the site, and unfixes them for Android Browser < 3 and iOS < 5. */
-}
 
-.sb-slidebar.sb-active {
-	display: block; /* Makes Slidebars visibile when open. Changed from visibility to display to allow -webkit-overflow-scrolling. */
-}
-
-.sb-style-overlay {
-	z-index: 9999; /* Set z-index high to ensure it overlays any other site elements. */
-}
-
-.sb-momentum-scrolling {
-	-webkit-overflow-scrolling: touch; /* Adds native momentum scrolling for iOS & Android devices. */
-}
-
-/* Slidebar widths for browsers/devices that don't support media queries. */
-	.sb-slidebar {
-		width: 30%;
-	}
-	
-	.sb-width-thin {
-		width: 15%;
-	}
-	
-	.sb-width-wide {
-		width: 45%;
-	}
-
-@media (max-width: 480px) { /* Slidebar widths on extra small screens. */
-	.sb-slidebar {
-		width: 70%;
-	}
-	
-	.sb-width-thin {
-		width: 55%;
-	}
-	
-	.sb-width-wide {
-		width: 85%;
-	}
-}
-
-@media (min-width: 481px) { /* Slidebar widths on small screens. */
-	.sb-slidebar {
-		width: 55%;
-	}
-	
-	.sb-width-thin {
-		width: 40%;
-	}
-	
-	.sb-width-wide {
-		width: 70%;
-	}
-}
-
-@media (min-width: 768px) { /* Slidebar widths on medium screens. */
-	.sb-slidebar {
-		width: 40%;
-	}
-	
-	.sb-width-thin {
-		width: 25%;
-	}
-	
-	.sb-width-wide {
-		width: 55%;
-	}
-}
-
-@media (min-width: 992px) { /* Slidebar widths on large screens. */
-	.sb-slidebar {
-		width: 30%;
-	}
-	
-	.sb-width-thin {
-		width: 15%;
-	}
-	
-	.sb-width-wide {
-		width: 45%;
-	}
-}
-
-@media (min-width: 1200px) { /* Slidebar widths on extra large screens. */
-	.sb-slidebar {
-		width: 20%;
-	}
-	
-	.sb-width-thin {
-		width: 5%;
-	}
-	
-	.sb-width-wide {
-		width: 35%;
-	}
-}
-
-/* ---------------
- * 004 - Animation
- */
-
-.sb-slide, #sb-site, .sb-site-container, .sb-slidebar {
-	-webkit-transition: -webkit-transform 400ms ease;
-	   -moz-transition: -moz-transform 400ms ease;
-	     -o-transition: -o-transform 400ms ease;
-	        transition: transform 400ms ease;
-	-webkit-transition-property: -webkit-transform, left, right; /* Add left/right for Android < 4.4. */
-	-webkit-backface-visibility: hidden; /* Prevents flickering. This is non essential, and you may remove it if your having problems with fixed background images in Chrome. */
-}
-
-/* --------------------
- * 005 - Helper Classes
- */
- 
-.sb-hide { 
-	display: none; /* Optionally applied to control classes when Slidebars is disabled over a certain width. */
-}

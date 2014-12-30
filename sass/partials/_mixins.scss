@@ -1,15 +1,15 @@
 @mixin bp($point) {
-   @if $point == bp-2xsml {
-     @media (min-width: 37.5em) { @content ; }
+   @if $point == bp-xsmaller {
+     @media (min-width: 35em) { @content ; }
   }
-   @else if $point == bp-xsml {
-     @media (min-width: 45em) { @content ; }
+   @else if $point == bp-xsmall {
+     @media (min-width: 40em) { @content ; }
   }
     @else if $point == bp-small {
      @media (min-width: 55em) { @content ; }
   }
-   @else if $point == bp-med {
-     @media (min-width: 60em)  { @content ; }
+   @else if $point == bp-medium {
+     @media (min-width: 40em)  { @content ; }
   }
   @else if $point == bp-large {
      @media (max-width: 65em)  { @content ; }
@@ -17,4 +17,12 @@
   @else if $point == bp-xlarge {
      @media (max-width: 70em)  { @content ; }
   }
+}
+
+@mixin flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }
