@@ -1,6 +1,7 @@
 @import 'partials/variables';
 @import 'partials/mixins';
 @import 'partials/media_query';
+@import 'partials/accordion';
 
 body {
 	line-height: 2em;
@@ -59,6 +60,7 @@ h6 {
 a {
 	color: #d05b14;
 	cursor: pointer;
+	transition: all 0.35s ease;
 }
 
 a:hover {
@@ -110,7 +112,7 @@ header nav {
 				display: block;
 			}
 			li {
-				@include flexbox();
+				@include flexbox-container();
 				float: left;
 				background: none;	
 				margin: 0;
@@ -143,10 +145,10 @@ header nav {
 }
 
 .slidebar {
-	right: -250px;
+	right: -16em;
 	transition: right .7s ease-out;
 	position: absolute;
-	width: 250px;
+	width: 16em;
 	z-index: 9999;
 	&.active {
 		right: 0;
@@ -184,10 +186,10 @@ header nav {
 	} 
 
 	.mobile-button { 
-	  background: $c-orange;
+	  background: $c-lightbeige;
 	  position:absolute; 
-	  top: 70px; 
-	  left: -50px; 
+	  top: 51px;
+		left: -64px;
 	  width: 35px; 
 	  height: 34px; 
 	  -webkit-backface-visibility: hidden; 
@@ -199,7 +201,7 @@ header nav {
 	} 
 
 	.inner-btn {
-	  background: white; 
+	  background: $c-orange; 
 	  display: block; 
 	  height: 5px; 
 	  margin-top: 14px; 
@@ -207,7 +209,7 @@ header nav {
 	  -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;
 	  
 	  &::before, &::after {
-	    background: white; 
+	    background: $c-orange; 
 	    content: ""; 
 	    display: block; 
 	    height: 5px; 
@@ -224,9 +226,6 @@ header nav {
 	  }
 	}
 }
-
-
-
 
 span.hide-text {
 	text-indent: 100%;
@@ -322,6 +321,7 @@ section.content aside li {
 	padding: 1px 25px 5px 0;
 	background: url(images/arrow-orange.png) no-repeat right 0;
 	font-family: 'Arvo', serif;
+	transition: none;
 }
 
 .btn-more:hover {

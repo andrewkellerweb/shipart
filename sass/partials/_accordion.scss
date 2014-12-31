@@ -1,0 +1,115 @@
+.slidebar,
+.slidebar ul,
+.slidebar ul li,
+.slidebar ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.slidebar {
+  color: $c-lightorange;
+  background: $c-orange;
+  ul li a {
+    padding: 15px 20px 15px 32px;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    border-bottom: 2px solid $c-mediumorange;
+    &:hover {
+      background: $c-darkorange;
+    }
+  }
+  li.has-sub > a.parent:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    right: 1em;
+    top: 18px;
+    @include slidebar-arrow-orange();
+    transition: all .3s ease;
+  }
+}
+
+.slidebar ul ul {
+  display: none;
+}
+.align-right {
+  float: right;
+}
+
+.slidebar > ul > li.has-sub.open > a:before {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.slidebar ul ul li a {
+  cursor: pointer;
+  padding: 15px 20px 15px 32px;
+  z-index: 1;
+  text-decoration: none;
+  font-size: .85em;
+  color: white;
+  background: $c-mediumorange;
+  font-family: 'Open Sans', serif;
+}
+.slidebar ul ul li:hover > a,
+.slidebar ul ul li.active > a {
+  background: $c-chocolate;
+  color: #ffffff;
+}
+.slidebar ul ul li:first-child > a {
+  box-shadow: none;
+}
+.slidebar ul ul ul li:first-child > a {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.slidebar ul ul ul li a {
+  padding-left: 30px;
+}
+.slidebar > ul > li > ul > li:last-child > a,
+.slidebar > ul > li > ul > li.last > a {
+  border-bottom: 0;
+}
+.slidebar > ul > li > ul > li.open:last-child > a,
+.slidebar > ul > li > ul > li.last.open > a {
+  border-bottom: 1px solid #32373e;
+}
+.slidebar > ul > li > ul > li.open:last-child > ul > li:last-child > a {
+  border-bottom: 0;
+}
+.slidebar ul ul li.has-sub > a::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  right: 20px;
+  z-index: 10;
+  top: 11.5px;
+  border-top: 2px solid #eeeeee;
+  border-left: 2px solid #eeeeee;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.slidebar ul ul li.active > a::after,
+.slidebar ul ul li.open > a::after,
+.slidebar ul ul li > a:hover::after {
+  border-color: #ffffff;
+}

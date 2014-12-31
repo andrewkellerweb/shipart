@@ -41,21 +41,61 @@
   </footer>
 
 <script src="js/slidebar.js"></script> <?php // Slidebar ?>
-
 <script src="js/jquery.easing.1.3.js" type="text/javascript"></script> 
-<script src="js/jquery.hoverIntent.minified.js" type="text/javascript"></script> <!-- dropdown -->
-<script src="js/slides.min.jquery.js"></script> <!-- slideshow -->
+
+<?php // NAVIGATION ?>
 <script type="text/javascript">
   if (window.matchMedia("(min-width: 40em)").matches) {
-    $.getScript("js/accordion.js", function(){
+    $.getScript("js/jquery.hoverIntent.minified.js", function(){
+    });
+    $.getScript("js/jquery.naviDropDown.1.0.js", function(){
+      $('#navigation_horiz').naviDropDown({
+        slideDownDuration: 100, //easing duration for slideDown
+        slideUpDuration: 100, //easing duration for slideUp'
+      });
     });
     $("#slidebar-container").toggleClass("slidebar");
   } else {
-
+    $.getScript("js/accordion.js", function(){
+    });
+    $(".dropdown").toggleClass("dropdown");
+    $(".horizontal").toggleClass("horizontal");
   }
 </script>
 
+<?php // SLIDESHOW ?>
+<script src="js/slides.min.jquery.js"></script> 
+<script>
+    $(function(){
+      $('#slides').slides({
+        preload: true,
+        preloadImage: 'images/pic-home-slider-storage.jpg',
+        play: 5000,
+        pause: 2500,
+        hoverPause: true,
+        effect: 'fade',
+        crossfade: true,
+      });
+    });
+</script>
 
+<?php // GOOGLE ANALYTICS ?>
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(
+    ['_setAccount', 'UA-16596458-2'],
+    ['_trackPageview'],
+    ['b._setAccount', 'UA-45401139-1'],
+    ['b._trackPageview']
+  );
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>
