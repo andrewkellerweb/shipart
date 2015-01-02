@@ -1,4 +1,4 @@
-  <footer class="clearfix">
+  <footer>
   	<div class="container-common">
       	<div class="col1">
           	<h3>Sitemap</h3>
@@ -14,12 +14,12 @@
           </div>
           <div class="col2">
           	&copy;
-              <script language="javascript" type="text/javascript">
-              var today = new Date()
-              var year = today.getFullYear()
-              document.write(year)
-              </script> 
-              Ship Art 
+            <script language="javascript" type="text/javascript">
+            var today = new Date()
+            var year = today.getFullYear()
+            document.write(year)
+            </script> 
+            Ship Art 
           </div>
           <div class="col3">
           	<h3>Contact</h3>
@@ -45,7 +45,7 @@
 
 <?php // NAVIGATION ?>
 <script type="text/javascript">
-  if (window.matchMedia("(min-width: 40em)").matches) {
+  if (window.matchMedia("(min-width: 45em)").matches) {
     $.getScript("js/jquery.hoverIntent.minified.js", function(){
     });
     $.getScript("js/jquery.naviDropDown.1.0.js", function(){
