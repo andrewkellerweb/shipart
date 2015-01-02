@@ -4,8 +4,7 @@
 <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>ShipArt | Installations | Fine Art</title>
-
+<title>ShipArt | Transportation | Certified Screening Facility</title>
 <meta name="Keywords" content="
 Fine Art Storage, Climate Controlled storage, Fine Art Transportation, Museum Quality storage, Storage Insurance, fine art crating, fine art handlers, fine art installation, fine art packing, fine art services,sculpture rigging, transporting artwork,San Francisco CA, California, Denver Co, Colorado and Aspen Colorado"/>
 
@@ -18,13 +17,11 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 
 <script src="js/modernizr.custom.38933.js"> </script> <!-- modernizr -->
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> <!-- jquery --> 
-
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> <!-- slideshow -->
+<script src="js/slides.min.jquery.js"></script> <!-- slideshow -->
 <script src="js/jquery.easing.1.3.js" type="text/javascript"></script> <!-- dropdown -->
 <script src="js/jquery.hoverIntent.minified.js" type="text/javascript"></script> <!-- dropdown -->
 <script src="js/jquery.naviDropDown.1.0.js" type="text/javascript"></script> <!-- dropdown -->
-
-<script src="js/jquery.lightbox-0.5.min.js"></script> <!-- lightbox -->
-
 
 <script type="text/javascript">
 $(function(){
@@ -36,12 +33,19 @@ $(function(){
 
 });
 </script>
-
-<script type="text/javascript">
-    $(function() {
-        $('#gallery a').lightBox();
-    });
-</script> <!-- lightbox -->
+<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'images/pic-home-slider-storage.jpg',
+				play: 5000,
+				pause: 2500,
+				hoverPause: true,
+				effect: 'fade',
+				crossfade: true,
+			});
+		});
+</script>
 
 <script type="text/javascript">
 
@@ -67,10 +71,10 @@ $(function(){
 
 <header class="main">
     <div class="container-common clearfix">
-    <h1><a href="/">ShipArt</a></h1>
+    <a class="logo" href="/">ShipArt</a>
     <nav>
         <ul class="top">
-            <li><a href="/transport-local.html">Other Services</a></li>
+            <li class="active"><a href="/transport-local.html">Other Services</a></li>
             <li><a href="/contact.html">Contact</a></li>
         </ul>
 
@@ -93,7 +97,7 @@ $(function(){
                 </ul>
             </li>
             
-            <li class="active"><a href="/installations-fineart.html">Installation</a>
+            <li><a href="/installations-fineart.html">Installation</a>
                 <ul class="dropdown">
                     <li><a href="/installations-fineart.html">Fine Art Installation</a></li>
                     <li><a href="/installations-rigging.html">Rigging</a></li>
@@ -107,113 +111,57 @@ $(function(){
 
 <section class="title">
 	<div class="container-common clearfix">
-    	<h2>Fine Art</h2>
+    	<h2>Local Transport</h2>
     </div>
 </section>
 <section class="content clearfix">
 	<div class="container-common">
 		<div class="main">
-  
-<p>     
-Fine Art Installation is about precision, security, and attention to detail. 
-</p>
+<p>Our local trucks are staffed with some of the best art handlers/installers in the country. They are well-trained, friendly and ready to handle any shipment large or small. We are staffed and equipped to handle packing and moving a single piece or an entire collection.</p>
 <p>
-Ship/Art provides professional art installation services to museum, gallery,
- private, and corporate clients. Our installation team continues to deliver 
-exceptional technical know-how to every project, regardless of the number of 
-pieces or the size of the artwork. 
-Ship/Art specializes in:
+Local Transport featuring:
 </p>
-
 <ul>
-	<li>Residential installations of a single artwork or an entire collection</li>
-	<li>Corporate Art Installation and Relocations</li>
-	<li>Security Hardware Installations</li>
-	<li>Cable Mounted Hanging Systems (Arakawa)</li>
-	<li>Seismic Stabilization</li>
+	<li>9 climate-controlled, air-ride trucks</li>
+	<li>Alarm system by BABACO&trade;</li>
+	<li>Exclusive use services for western USA</li>
+	<li>Airport shuttle service with plane-side supervision</li>
 </ul>
 
+			  <p>For San Francisco transportation contact:</p>
+			  <blockquote>
+			    <p><strong>Jonathan Collis</strong><br />
+			    <a href="mailto:JC@shipart.com">JC@shipart.com</a></p>
+			    <p>OR</p>
+			    <p><strong>Aimee Harlib</strong><br />
+			    <a href="mailto:aimee@shipart.com">aimee@shipart.com</a></p>
+			  </blockquote>
+			  
+			  <p>For Denver transportation contact: </p>
+			  <blockquote>
+			    <p><strong>Kate Ninneman </strong><br />
+			    <a href="mailto:heather@shipart.com">kate@shipart.com</a></p>
+			  </blockquote>
+			  
 
 
-
-
-
-        
-    </div> <!-- /main -->
+		</div> <!-- /main -->
 	<aside>
     
-    	<nav>
+    	 <nav>
         	<ul>
-            	<li class="active"><a href="installations-fineart.html">Fine Art Installation</a></li>
-                <li><a href="installations-rigging.html">Rigging</a></li>
+                <li class="active"><a href="transport-local.html">Local Transport</a></li>
+                <li><a href="transport-air.html">Airfreight / Import &amp; Export</a></li>
+                <li><a href="transport-certified.html">Certified Screening Facility</a></li>
             </ul>
         </nav>
         
-    <div id="gallery" class="clearfix">
-    <ul>
-        <li>
-            <a href="images/installation-fine1.jpg" title="">
-                <img src="thumbs/installation-fine1.jpg"alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="images/installation-fine2.jpg" title="">
-                <img src="thumbs/installation-fine2.jpg"alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="images/installation-fine3.jpg" title="">
-                <img src="thumbs/installation-fine3.jpg"alt="" />
-            </a>
-        </li>
-
-    </ul>
-    </div>
+        <div class="container-slider" id="slides">
+			<img src="images/pic-transport-truck.jpg" />        
+		</div> <!-- /container-slider -->
 
 	</aside>
   
   </div>  <!-- /container-common -->
 </section>
-<footer class="clearfix">
-    <div class="container-common">
-        <div class="col1">
-            <h3>Sitemap</h3>
-            <ul>
-                <li><a href="/shuttle-overview.html">Shuttle Services</a></li>
-                <li><a href="/storage.html">Storage</a></li>
-                <li><a href="/pc-overview.html">Packing / Crating</a></li>
-                <li><a href="/installations-fineart.html">Installation</a></li>
-                <li><a href="/estimates.html">Estimates</a></li>
-                <li class="last"><a href="/transport-local.html">Other Services</a></li>
-                <li class="last"><a href="/contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="col2">
-            &copy;
-            <script language="javascript" type="text/javascript">
-            var today = new Date()
-            var year = today.getFullYear()
-            document.write(year)
-            </script> 
-            Ship Art 
-        </div>
-        <div class="col3">
-            <h3>Contact</h3>
-            <p class="icons-social"><a class="fb" href="https://www.facebook.com/pages/Ship-Art-International-and-Denver/195853177152069" target="_blank">Facebook</a></p>
-    <p><strong>Ship Art International<br /></strong>
-    P.O. Box 1966<br>
-    South San Francisco, CA 94083-1966  <br>
-    Phone: (650) 952-0100<br>
-    Fax: (650) 952-8958</p>
-                    
-    <p><strong>Ship Art Denver</strong><br />
-    P.O. BOX 16662<br />
-    Denver, CO 80216 <br />
-    Phone: (303) 291-3906<br />
-    Fax: (303) 291-3912</p>
-
-        </div>
-    </div>
-</footer>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>

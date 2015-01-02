@@ -1,11 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>ShipArt | Shuttle Services | Denver / Vail / Aspen Shuttle</title>
-
 <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ShipArt | Transportation | Certified Screening Facility</title>
 <meta name="Keywords" content="
 Fine Art Storage, Climate Controlled storage, Fine Art Transportation, Museum Quality storage, Storage Insurance, fine art crating, fine art handlers, fine art installation, fine art packing, fine art services,sculpture rigging, transporting artwork,San Francisco CA, California, Denver Co, Colorado and Aspen Colorado"/>
 
@@ -18,13 +17,11 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 
 <script src="js/modernizr.custom.38933.js"> </script> <!-- modernizr -->
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> <!-- jquery --> 
-
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> <!-- slideshow -->
+<script src="js/slides.min.jquery.js"></script> <!-- slideshow -->
 <script src="js/jquery.easing.1.3.js" type="text/javascript"></script> <!-- dropdown -->
 <script src="js/jquery.hoverIntent.minified.js" type="text/javascript"></script> <!-- dropdown -->
 <script src="js/jquery.naviDropDown.1.0.js" type="text/javascript"></script> <!-- dropdown -->
-
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> <!-- slideshow -->
-<script src="js/slides.min.jquery.js"></script> <!-- slideshow -->
 
 <script type="text/javascript">
 $(function(){
@@ -70,19 +67,19 @@ $(function(){
 
 </head>
 
-<body class="page-inside one-col">
+<body class="page-inside two-col">
 
 <header class="main">
     <div class="container-common clearfix">
-    <h1><a href="/">ShipArt</a></h1>
+    <a class="logo" href="/">ShipArt</a>
     <nav>
         <ul class="top">
-            <li><a href="/transport-local.html">Other Services</a></li>
+            <li class="active"><a href="/transport-local.html">Other Services</a></li>
             <li><a href="/contact.html">Contact</a></li>
         </ul>
 
         <ul class="main" id="navigation_horiz">
-            <li class="active"><a href="/shuttle-overview.html">Shuttle Services</a>
+            <li><a href="/shuttle-overview.html">Shuttle Services</a>
               <ul class="dropdown">
                 <li><a href="shuttle-overview.html">Shuttle Services</a></li>
                 <li><a href="shuttle-sanfrancisco-losangeles.html">San Francisco / Los Angeles Shuttle</a></li>
@@ -114,116 +111,63 @@ $(function(){
 
 <section class="title">
 	<div class="container-common clearfix">
-    	<h2>Denver / Vail / Aspen Shuttle</h2>
+    	<h2>Airfreight / Import &amp; Export</h2>
     </div>
 </section>
 <section class="content clearfix">
 	<div class="container-common">
 		<div class="main">
+<h3>Airfreight</h3>
+<p>At Ship/Art we can handle both domestic and international airfreight. There are various levels of service that we can provide depending on your particular needs. Ship/Art has the expertise to handle all aspects in the coordination of your shipment to and from anywhere in the world.</p> 
+<p>Service levels:</p>
+<ul>
+	<li>Airfreight on major airlines</li>
+	<li>Guaranteed next day</li>
+	<li>Next day</li>
+	<li>2 day</li>
+	<li>3-5 day </li>
+</ul>
 
-			<article class="schedule">
-				<a href="/shuttle-overview.html" class="btn-back right">Back</a>
-				<h3>Schedule: Winter 2014</h3>
-				
-				<table>
-					<tr class="odd">
-						<th>Denver Pickup / Receive</th>
-						<th>Vail Pickup / Aspen Delivery</th>
-						<th>Aspen Delivery / Pickup</th>
-					</th>
-					<tr class="even">
-						<td>On or prior to October 10</td>
-						<td>October 15</td>
-						<td>October 16</td>
-					</tr>
-					<tr class="odd">
-						<td>On or prior to November 7</td>
-						<td>November 12</td>
-						<td>November 13</td>
-					</tr>
-					<tr class="even">
-						<td>On or prior to December 12</td>
-						<td>December 17</td>
-						<td>December 18</td>
-					</tr>
-				</table>
+<p>	
+We have many years of experience in all aspects of the airfreight industry. We are certified by the F.A.A. to book your shipment directly with major airlines as well as provide planeside supervision to insure your shipment gets on the plane safely. </p>
+<h3>Imports and Exports</h3>
+<p>Our team has an extensive understanding of import and export requirements for international shipping. We work with trusted agents all over the world, including a network of fine art agents through our relationship with ICEFAT.  Ship/Art can handle all of your customs clearance needs, as well as CITES import and export handling and other U.S. Fish and Wildlife permits. </p>
 
-				<h3>Schedule: Winter 2015</h3>
-				
-				<table>
-					<tr class="odd">
-						<th>Denver Pickup / Receive</th>
-						<th>Vail Pickup / Aspen Delivery</th>
-						<th>Aspen Delivery / Pickup</th>
-					</th>
-					<tr class="even">
-						<td>On or prior to January 9</td>
-						<td>January 14</td>
-						<td>January 15</td>
-					</tr>
-					<tr class="odd">
-						<td>On or prior to February 13</td>
-						<td>February 18</td>
-						<td>February 19</td>
-					</tr>
-					<tr class="even">
-						<td>On or prior to March 6</td>
-						<td>March 11</td>
-						<td>March 12</td>
-					</tr>
-				</table>
-								
-				<p> *SA Denver runs the shuttle approximately every second Wednesday/Thursday of each month in an attempt to better serve our clients in the Aspen/Snowmass corridors. Shuttle route is defined as the I-70 corridor and Aspen valley (highway 82).  Any location 10 miles off route will be billed shuttle rate plus out and back to route @ $150.00 per hour of travel.
-				</p>
-			</article>
-			
-			
-			<a href="/shuttle-overview.html" class="btn-back right">Back</a>
+			  <p>For San Francisco exports and imports, please contact:</p>
+			  <blockquote>
+			    <p><strong>Becky Ebeling</strong><br />
+			    <a href="mailto:becky@shipart.com">becky@shipart.com</a></p>
+			  </blockquote>
+			  
+			  <p>For exports and imports from Denver, please contact: </p>
+			  <blockquote>
+			    <p><strong>Heather Haldeman</strong><br />
+			    <a href="mailto:heather@shipart.com">heather@shipart.com</a></p>
+			  </blockquote>
+			  
 
-		</div> <!-- /main -->  
+			  
+		</div> <!-- /main -->
+		
+	<aside>
+    
+    	 <nav>
+        	<ul>
+                <li><a href="transport-local.html">Local Transport</a></li>
+                <li class="active"><a href="transport-air.html">Airfreight / Import &amp; Export</a></li>
+                <li><a href="transport-certified.html">Certified Screening Facility</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container-slider" id="slides">
+			<div class="slides_container">
+					<div class="slide"><a href="#"><img src="images/pic-transport-air.jpg" /></a></div>
+
+			</div>
+        </div> <!-- /container-slider -->
+
+	</aside>
+  
   </div>  <!-- /container-common -->
 </section>
-
-<footer class="clearfix">
-    <div class="container-common">
-        <div class="col1">
-            <h3>Sitemap</h3>
-            <ul>
-                <li><a href="/shuttle-overview.html">Shuttle Services</a></li>
-                <li><a href="/storage.html">Storage</a></li>
-                <li><a href="/pc-overview.html">Packing / Crating</a></li>
-                <li><a href="/installations-fineart.html">Installation</a></li>
-                <li><a href="/estimates.html">Estimates</a></li>
-                <li class="last"><a href="/transport-local.html">Other Services</a></li>
-                <li class="last"><a href="/contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="col2">
-            &copy;
-            <script language="javascript" type="text/javascript">
-            var today = new Date()
-            var year = today.getFullYear()
-            document.write(year)
-            </script> 
-            Ship Art 
-        </div>
-        <div class="col3">
-            <h3>Contact</h3>
-            <p class="icons-social"><a class="fb" href="https://www.facebook.com/pages/Ship-Art-International-and-Denver/195853177152069" target="_blank">Facebook</a></p>
-    <p><strong>Ship Art International<br /></strong>
-    P.O. Box 1966<br>
-    South San Francisco, CA 94083-1966  <br>
-    Phone: (650) 952-0100<br>
-    Fax: (650) 952-8958</p>
-                    
-    <p><strong>Ship Art Denver</strong><br />
-    P.O. BOX 16662<br />
-    Denver, CO 80216 <br />
-    Phone: (303) 291-3906<br />
-    Fax: (303) 291-3912</p>
-
-        </div>
-    </div>
-</footer>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>

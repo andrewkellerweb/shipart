@@ -1,11 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>ShipArt | Shuttle Services | Overview</title>
-
 <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ShipArt | Transportation | Certified Screening Facility</title>
 <meta name="Keywords" content="
 Fine Art Storage, Climate Controlled storage, Fine Art Transportation, Museum Quality storage, Storage Insurance, fine art crating, fine art handlers, fine art installation, fine art packing, fine art services,sculpture rigging, transporting artwork,San Francisco CA, California, Denver Co, Colorado and Aspen Colorado"/>
 
@@ -18,13 +17,11 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 
 <script src="js/modernizr.custom.38933.js"> </script> <!-- modernizr -->
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> <!-- jquery --> 
-
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> <!-- slideshow -->
+<script src="js/slides.min.jquery.js"></script> <!-- slideshow -->
 <script src="js/jquery.easing.1.3.js" type="text/javascript"></script> <!-- dropdown -->
 <script src="js/jquery.hoverIntent.minified.js" type="text/javascript"></script> <!-- dropdown -->
 <script src="js/jquery.naviDropDown.1.0.js" type="text/javascript"></script> <!-- dropdown -->
-
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> <!-- slideshow -->
-<script src="js/slides.min.jquery.js"></script> <!-- slideshow -->
 
 <script type="text/javascript">
 $(function(){
@@ -74,15 +71,15 @@ $(function(){
 
 <header class="main">
     <div class="container-common clearfix">
-    <h1><a href="/">ShipArt</a></h1>
+    <a class="logo" href="/">ShipArt</a>
     <nav>
         <ul class="top">
-            <li><a href="/transport-local.html">Other Services</a></li>
+            <li class="active"><a href="/transport-local.html">Other Services</a></li>
             <li><a href="/contact.html">Contact</a></li>
         </ul>
 
         <ul class="main" id="navigation_horiz">
-            <li class="active"><a href="/shuttle-overview.html">Shuttle Services</a>
+            <li><a href="/shuttle-overview.html">Shuttle Services</a>
               <ul class="dropdown">
                 <li><a href="shuttle-overview.html">Shuttle Services</a></li>
                 <li><a href="shuttle-sanfrancisco-losangeles.html">San Francisco / Los Angeles Shuttle</a></li>
@@ -114,93 +111,28 @@ $(function(){
 
 <section class="title">
 	<div class="container-common clearfix">
-    	<h2>Shuttle Services</h2>
+    	<h2>Certified Screening Facility</h2>
     </div>
 </section>
 <section class="content clearfix">
 	<div class="container-common">
 		<div class="main">
-<p>Ship/Art is proud to offer climate-controlled, air-ride Express Fine Art Shuttles three times a month to New York and Denver. We also offer a Fine Art Shuttle to Los Angeles twice a month. Our Express Shuttles provide a safe and secure method of transporting all types of art work. Please see our shuttle schedule for available dates and contact Ship/Art for an estimate.</p>
-
-<p>Ship/Art also offers Fine Art Shuttles to almost any destination in the United States. All shuttles are equipped to museum quality specifications, are fully alarmed and have security tracking systems. At Ship/Art we work with a network of fine art handlers to find the safest way to transport your shipment while maintaining deadlines and competitive rates.</p>
-			  <ul>
-			    <li><a href="/shuttle-sanfrancisco-losangeles.html">San Franciso / Los Angeles shuttle  </a> </li>
-                <li><a href="/shuttle-sanfrancisco-newyork.html">San Francisco / New York City Shuttle  </a> </li>
-		        <li><a href="/shuttle-denver.html">Denver / Vail / Aspen Shuttle  </a></li>
-			  </ul>
-			  <p>For more information on the <strong>NYC / San Francisco </strong>shuttle, contact:</p>
-			  <blockquote>
-			    <p><strong>Amy Mutza</strong><br />
-		          <a href="mailto:amy@shipart.com">amy@shipart.com</a>			  
-		          </p>
-		          <p>or</p>
-		          <p><strong>Amber Stucke</strong><br />
-		          <a href="mailto:amber@shipart.com">amber@shipart.com</a>			  
-		          </p>
-			  </blockquote>
-			  <p>For more information on the <strong>Denver -- Aspen</strong> shuttle, contact:</p>
-			  <blockquote>
-			    <p><strong>Kate Ninneman </strong><br />
-			    <a href="mailto:kate@shipart.com">kate@shipart.com</a></p>
-			  </blockquote>
+Under the Transportation Security Administration program, ShipArt international and ShipArt are both Certified Cargo Screening Facilities. This designation allows both companies to pre-screen air shipments traveling via passenger aircrafts prior to delivering to the airport, making the air shipping process more efficient and less costly. 
 		</div> <!-- /main -->
 	<aside>
-    	<nav>
+    
+    	 <nav>
         	<ul>
-          	<li class="active"><a href="shuttle-overview.html">Shuttle Services</a></li>
-            <li><a href="shuttle-sanfrancisco-losangeles.html">San Francisco / Los Angeles Shuttle</a></li>
-            <li><a href="shuttle-sanfrancisco-newyork.html">San Francisco / New York Shuttle</a></li>
-            <li><a href="shuttle-denver.html">Denver / Vail / Aspen Shuttle</a></li>
-          </ul>
+                <li><a href="transport-local.html">Local Transport</a></li>
+                <li><a href="transport-air.html">Airfreight / Import &amp; Export</a></li>
+                <li class="active"><a href="transport-certified.html">Certified Screening Facility</a></li>
+            </ul>
         </nav>
-        <div class="container-slider" id="slides">
-			<img src="images/pic-transport-shuttle.jpg" />        
-		</div> <!-- /container-slider -->
+        
+
 
 	</aside>
   
   </div>  <!-- /container-common -->
 </section>
-<footer class="clearfix">
-    <div class="container-common">
-        <div class="col1">
-            <h3>Sitemap</h3>
-            <ul>
-                <li><a href="/shuttle-overview.html">Shuttle Services</a></li>
-                <li><a href="/storage.html">Storage</a></li>
-                <li><a href="/pc-overview.html">Packing / Crating</a></li>
-                <li><a href="/installations-fineart.html">Installation</a></li>
-                <li><a href="/estimates.html">Estimates</a></li>
-                <li class="last"><a href="/transport-local.html">Other Services</a></li>
-                <li class="last"><a href="/contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="col2">
-            &copy;
-            <script language="javascript" type="text/javascript">
-            var today = new Date()
-            var year = today.getFullYear()
-            document.write(year)
-            </script> 
-            Ship Art 
-        </div>
-        <div class="col3">
-            <h3>Contact</h3>
-            <p class="icons-social"><a class="fb" href="https://www.facebook.com/pages/Ship-Art-International-and-Denver/195853177152069" target="_blank">Facebook</a></p>
-    <p><strong>Ship Art International<br /></strong>
-    P.O. Box 1966<br>
-    South San Francisco, CA 94083-1966  <br>
-    Phone: (650) 952-0100<br>
-    Fax: (650) 952-8958</p>
-                    
-    <p><strong>Ship Art Denver</strong><br />
-    P.O. BOX 16662<br />
-    Denver, CO 80216 <br />
-    Phone: (303) 291-3906<br />
-    Fax: (303) 291-3912</p>
-
-        </div>
-    </div>
-</footer>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>

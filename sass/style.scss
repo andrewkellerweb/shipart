@@ -91,7 +91,7 @@ header.main {
 	border-bottom: 5px solid white;
 	.container-common {
 		background: url(images/bg-header.jpg) no-repeat 0 bottom;	
-		min-height: 174px;
+		min-height: 150px;
 	}
 	.logo {
 		float: left;
@@ -101,9 +101,9 @@ header.main {
 		height: 100px;
 		text-indent: -9999px;
 		margin: 28px 0 0 23px;
-		@include bp(bp-large) {
-			margin: 28px 0 40px 23px;
-		}
+	}
+	.page-home .logo {
+		margin: 28px 0 40px 23px;
 	}
 }
 
@@ -261,7 +261,10 @@ footer {
 			margin: 0;	
 			padding: 0;
 		}
-		flex: 1 auto;
+		flex: 1 100%;
+		@include bp(bp-xsmall) {
+			flex: 1 auto;
+		}
 		margin-left: 30px;
 		@include bp(bp-large) {
 			margin: 0;
@@ -278,9 +281,13 @@ footer {
 	}
 	.col3 {
 		order: 3;
-		flex: 1 auto;
-		text-align: right;
-		margin-right: 30px;
+		flex: 1 100%;
+		margin-left: 30px;
+		@include bp(bp-xsmall) {
+			flex: 1 auto;
+			text-align: right;
+			margin-right: 30px;
+		}
 		@include bp(bp-large) {
 			margin: 0;
 		}
@@ -300,38 +307,54 @@ section.title .container-common {
 }
 
 section.title h2 {
-	padding: 33px 65px 33px 65px;
+	padding: 33px 65px 33px 35px;
 	color: #ffffff;
 	margin: 0 0 0 1px;
 	font-family: 'Arvo', serif;
 	background: #2F2C28;
 	float: left;
+	@include bp(bp-large) {
+		padding: 33px 65px 33px 65px;
+	}
 }
 
 .page-inside section.content {
-	padding: 45px 0;
+	padding: 45px 30px;
+	@include bp(bp-large) {
+		padding: 45px 0;
+	}
 }
 
 body.one-col .main {
 }
 
 body.two-col section .main {
-	float: left;
-	width: 540px;
-	margin: 0 30px 0 0;
+	@include bp(bp-large) {
+		float: left;
+		width: 540px;
+		margin: 0 30px 0 0;
+	}
 }
 
 body.two-col section aside {
-	float: left;
-	width: 390px;
+	img {
+		max-width: 100%;
+	}
+	@include bp(bp-large) {
+		float: left;
+		width: 390px;
+	}
 }
 
 section.content aside nav {
-	background: #eeeeee;
-	border: 5px solid #cdcdcd;
-	padding: 20px;
-	font-size: 1.1em;
-	margin: 0 0 20px 0px;
+	display: none;
+	@include bp(bp-large) {
+		background: #eeeeee;
+		border: 5px solid #cdcdcd;
+		padding: 20px;
+		font-size: 1.1em;
+		margin: 0 0 20px 0px;
+	}
 }
 
 section.content aside nav ul {

@@ -1,215 +1,3 @@
-<?php
-
-if(isset($_POST['submit'])) 
-{ 
-include('Mail.php');
-
-
-$headers['From']        = '"Estimate Request" <estimaterequest@shipart.com>';
-$headers['Subject']    .= 'Ship/Art Estimate Request';
-
-$name = $_POST['name'];
-$address = $_POST['address'];
-$state = $_POST['state'];
-$phone = $_POST['phone'];
-$fax = $_POST['fax'];
-$email = $_POST['email'];
-$locations = $_POST['locations'];
-$deadlines = $_POST['deadlines'];
-$items = $_POST['items'];
-$facilities = $_POST['facilities'];
-$service = $_POST['service'];
-$insure = $_POST['insure'];
-$contactpreference = $_POST['contactpreference'];
-$hearabout = $_POST['hearabout'];
-$receive = $_POST['receive'];
-
-
-$body = "
-
-From: $name\n 
-Address: $address\n 
-State: $state\n 
-Phone: $phone\n 
-Fax: $fax\n 
-E-Mail: $email\n 
-Pick-up and delivery locations: $locations\n 
-Transit deadlines, if any, and when is the shipment available for initial pick up: $deadlines\n 
-Items to be transported, including sizes and weights and if the items are packed and/or crated: $items\n
-Pick up and delivery location facilities (loading dock, elevators, stairs, etc). Are there any truck size restrictions at either the pick up or delivery locations: $facilitiies\n
-Type of service: $service\n
-Transportation insurance: $insure\n
-Contact method and time: $contactpreference\n
-How they heard about Ship Art: $hearabout\n
-Send to: $receive\n
-
-";
-
-$params['host'] = 'scriptmail.intermedia.net';
-$mail_object =& Mail::factory('smtp', $params);
-
-
-
-if($receive == sanshuttle)
-
-{
-$recipients             = '"Amy Mutza" <amy@shipart.com>, "Jos Pollard" <jos@shipart.com>';
-$headers['To']          = '"Amy Mutza" <amy@shipart.com>, "Jos Pollard" <jos@shipart.com>';
-
-if ( $mail_object->send($recipients, $headers, $body) ) {
-}
-
-} 
-
-
-
-if($receive == sanlocal)
-
-{
-$recipients             = '"Tim Polishook" <tim@shipart.com>';
-$headers['To']          = '"Tim Polishook" <tim@shipart.com>'; 
-
-if ( $mail_object->send($recipients, $headers, $body) ) {
-}
-
-} 
-
-
-
-if($receive == sanimport)
-
-{
-$recipients             = '"Becky Ebeling" <becky@shipart.com>, "William" <william@shipart.com>'; 
-$headers['To']          = '"Becky Ebeling" <becky@shipart.com>'; 
-$headers['Cc']         .= '"William" <william@shipart.com>';
-
-if ( $mail_object->send($recipients, $headers, $body) ) {
-}
-
-} 
-
-
-if($receive == sanexport)
-
-{
-$recipients             = '"Becky Ebeling" <becky@shipart.com>, "William" <william@shipart.com>';
-$headers['To']          = '"Becky Ebeling" <becky@shipart.com>';
-$headers['Cc']         .= '"Becky Ebeling" <becky@shipart.com>, "William" <william@shipart.com>';
-
-if ( $mail_object->send($recipients, $headers, $body) ) {
-}
-
-} 
-
-
-if($receive == sanrigging)
-
-{
-$recipients             = '"Tim Polishook" <tim@shipart.com>, "Greg Gahagan" <greg@shipart.com>';
-$headers['To']          = '"Tim Polishook" <tim@shipart.com>';
-$headers['Cc']         .= '"Greg Gahagan" <greg@shipart.com>';
-
-if ( $mail_object->send($recipients, $headers, $body) ) {
-}
-
-} 
-
-
-if($receive == denair)
-
-{
-$recipients             = '"Heather Sheldon" <heather@shipart.com>, "Alan Jones" <alan@shipart.com>, "Kate" <kate@shipart.com>';  
-$headers['To']          = '"Heather Sheldon" <heather@shipart.com>';
-$headers['Cc']         .= '"Alan Jones" <alan@shipart.com>, "Kate" <kate@shipart.com>';
-
-if ( $mail_object->send($recipients, $headers, $body) ) {
-}
-
-} 
-
-
-if($receive == denaspen)
-
-{
-$recipients             = '"Heather Sheldon" <heather@shipart.com>, "Kate" <kate@shipart.com>';
-$headers['To']          = '"Heather Sheldon" <heather@shipart.com>';
-$headers['Cc']         .= '"Kate" <kate@shipart.com>';
-
-if ( $mail_object->send($recipients, $headers, $body) ) {
-}
-
-} 
-
-
-if($receive == denlocal)
-
-{
-$recipients             = '"Alan Jones" <alan@shipart.com>, "Kate" <kate@shipart.com>';
-$headers['To']          = '"Alan Jones" <alan@shipart.com>';
-$headers['Cc']         .= '"Kate" <kate@shipart.com>';
-
-
-if ( $mail_object->send($recipients, $headers, $body) ) {
-}
-
-} 
-
-
-if($receive == denimport)
-
-{
-$recipients             = '"Heather Sheldon" <heather@shipart.com>, "Alan Jones" <alan@shipart.com>, "Kate" <kate@shipart.com>';  
-$headers['To']          = '"Heather Sheldon" <heather@shipart.com>';
-$headers['Cc']         .= '"Alan Jones" <alan@shipart.com>, "Kate" <kate@shipart.com>';
-
-if ( $mail_object->send($recipients, $headers, $body) ) {
-}
-
-} 
-
-
-if($receive == denexport)
-
-{
-$recipients             = '"Heather Sheldon" <heather@shipart.com>, "Alan Jones" <alan@shipart.com>, "Kate" <kate@shipart.com>';  
-$headers['To']          = '"Heather Sheldon" <heather@shipart.com>';
-$headers['Cc']         .= '"Alan Jones" <alan@shipart.com>, "Kate" <kate@shipart.com>';
-
-if ( $mail_object->send($recipients, $headers, $body) ) {
-}
-
-} 
-
-
-if($receive == denrigging)
-
-{
-$recipients             = '"Alan Jones" <alan@shipart.com>, "Kate" <kate@shipart.com>'; 
-$headers['To']          = '"Alan Jones" <alan@shipart.com>, "Kate" <kate@shipart.com>'; 
-
-
-if ( $mail_object->send($recipients, $headers, $body) ) {
-}
-
-} 
-
-if($receive == denstorage)
-
-{
-$recipients             = '<stefani@shipart.com>, "Kate" <kate@shipart.com>'; 
-$headers['To']          = '<stefani@shipart.com>, "Kate" <kate@shipart.com>'; 
-
-
-if ( $mail_object->send($recipients, $headers, $body) ) {
-}
-
-} 
-
-
-
-}
-?>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -219,10 +7,10 @@ if ( $mail_object->send($recipients, $headers, $body) ) {
 <title>ShipArt | Estimates</title>
 
 <meta name="Keywords" content="
-Fine Art Storage, Climate Controlled storage, Fine Art Transportation, Museum Quality storage, Storage Insurance, fine art crating, fine art handlers, fine art installation, fine art packing, fine art services,sculpture rigging, transporting artwork,San Francisco CA, California, Denver Co, Colorado and Aspen Colorado"/>
+Fine Art Storage, Climate Controlled storage, Fine Art Transportation, Museum Quality storage, Storage Insurance, fine art crating, fine art handlers,Â fine art installation, fine art packing,Â fine art services,sculpture rigging, transporting artwork,San Francisco CA, California, Denver Co, Colorado and Aspen Colorado"/>
 
 <meta name="Description" content="
-Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Transportation, fine art packing, fine art crating,  rigging of fine art, artifacts, and antiques in San Francisco CA California, and Denver, CO Colorado and Aspen Colorado.
+Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Transportation, fine art packing,Â fine art crating,  rigging of fine art, artifacts, and antiques in San Francisco CA California, and Denver, CO Colorado and Aspen Colorado.
 "/>
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -284,35 +72,40 @@ $(function(){
 <body class="page-inside one-col">
 
 <header class="main">
-	<div class="container-common clearfix">
-	<h1><a href="/">ShipArt</a></h1>
+    <div class="container-common clearfix">
+    <a class="logo" href="/">ShipArt</a>
     <nav>
-    	<ul id="navigation_horiz">
+        <ul class="top">
+            <li><a href="/transport-local.html">Other Services</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+
+        <ul class="main" id="navigation_horiz">
+            <li><a href="/shuttle-overview.html">Shuttle Services</a>
+              <ul class="dropdown">
+                <li><a href="shuttle-overview.html">Shuttle Services</a></li>
+                <li><a href="shuttle-sanfrancisco-losangeles.html">San Francisco / Los Angeles Shuttle</a></li>
+                <li><a href="shuttle-sanfrancisco-newyork.html">San Francisco / New York Shuttle</a></li>
+                <li><a href="shuttle-denver.html">Denver / Vail / Aspen Shuttle</a></li>
+              </ul>
+            </li>
             <li><a href="/storage.html">Storage</a></li>
             <li><a href="/pc-overview.html">Packing / Crating</a>
-            	<ul class="dropdown">
-            		<li><a href="/pc-overview.html">Overview</a></li>
-            		<li><a href="/pc-standard-crates.html">Standard Crates</a></li>
-            		<li><a href="/pc-museum-crates.html">Museum Crates</a></li>
-            		<li><a href="/pc-packing-services.html">Packing Services</a></li>
-            	</ul>
+                <ul class="dropdown">
+                    <li><a href="/pc-overview.html">Overview</a></li>
+                    <li><a href="/pc-standard-crates.html">Standard Crates</a></li>
+                    <li><a href="/pc-museum-crates.html">Museum Crates</a></li>
+                    <li><a href="/pc-packing-services.html">Packing Services</a></li>
+                </ul>
             </li>
+            
             <li><a href="/installations-fineart.html">Installation</a>
-            	<ul class="dropdown">
-            		<li><a href="/installations-fineart.html">Fine Art Installation</a></li>
-            		<li><a href="/installations-rigging.html">Rigging</a></li>
-            	</ul>
-            </li>
-            <li><a href="/shuttle-overview.html">Art Transport</a>
-            	<ul class="dropdown">
-            		<li><a href="/shuttle-overview.html">Shuttle Services</a></li>
-            		<li><a href="/transport-local.html">Local Transport</a></li>
-            		<li><a href="/transport-air.html">Airfreight / Import & Export</a></li>
-            		<li><a href="/transport-certified.html">Certified Screening Facility</a></li>
-            	</ul>
+                <ul class="dropdown">
+                    <li><a href="/installations-fineart.html">Fine Art Installation</a></li>
+                    <li><a href="/installations-rigging.html">Rigging</a></li>
+                </ul>
             </li>
             <li class="active"><a href="/estimates.html">Estimates</a></li>
-            <li class="last"><a href="/contact.html">Contact</a></li>
         </ul>
     </nav>
     </div>
@@ -328,60 +121,166 @@ $(function(){
 		<div class="main">
 
 
-Your Estimate has been successfully sent. We will contact you soon in regards to your request.
+<form id="estimatesform" action="estimates-thankyou.php" name="estimatesform" method="post" onsubmit="MM_validateForm('name','','R','email','','RisEmail','state','','R','locations','','R','items','','R','insure','','R','receive','','R');return document.MM_returnValue"><table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td>&nbsp;</td>
+                  <td align="center" valign="middle"></td>
+                  <td><span class="red">*</span> Denotes required field </td>
+                </tr>
+
+                <tr>
+                  <td><strong>Name:</strong></td>
+                  <td align="left" valign="top"><div class="required_text"></div></td>
+                  <td><input name="name" type="text" class="field_med" />                  </td>
+                </tr>
+
+                
+                <tr>
+                  <td><strong>Street Address :</strong></td>
+                  <td align="left" valign="top"></td>
+                  <td><input name="address" type="text" class="field_long"/></td>
+                </tr>
+
+                
+                <tr>
+                  <td><strong>State:</strong></td>
+                  <td align="left" valign="top"><div class="required_text"></div></td>
+                  <td><input name="state" type="text" class="field_shortest" maxlength="2" /></td>
+                </tr>
+
+                
+                <tr>
+                  <td><strong>Phone :</strong></td>
+                  <td align="left" valign="top"></td>
+                  <td><input name="phone" type="text" class="field_med" /></td>
+                </tr>
+
+                <tr>
+                  <td><strong>Fax:</strong></td>
+                  <td align="left" valign="top"></td>
+                  <td><input name="fax" type="text" class="field_med" /></td>
+                </tr>
+
+                <tr>
+                  <td><strong>Email:</strong></td>
+                  <td align="left" valign="top"><div class="required_text"></div></td>
+                  <td><input name="email" type="text" class="field_med"/></td>
+                </tr>
+
+                
+
+                <tr>
+                  <td align="left" valign="top"><strong>What are the pick-up and delivery locations? <br />
+                  (C</strong><strong>ity, State, ZIP):</strong>                  </td>
+                  <td align="left" valign="top"><div class="required_text"></div></td>
+                  <td valign="top"><textarea name="locations" rows="4" class="field_message" ></textarea></td>
+                </tr>
+
+                <tr>
+                  <td align="left" valign="top"><strong>What are the transit deadlines, if any, and when is the shipment available for initial pick up?</strong><strong></strong></td>
+                  <td align="left" valign="top"></td>
+                  <td valign="top"><textarea name="deadlines" rows="4" class="field_message" ></textarea></td>
+                </tr>
+
+                <tr>
+                  <td align="left" valign="top"><strong>Please describe the items that you would like transported, including sizes and weights and if the items are packed and/or crated: </strong></td>
+                  <td align="left" valign="top"><div class="required_text"></div></td>
+                  <td valign="top"><textarea name="items" rows="10" class="field_message" ></textarea></td>
+                </tr>
+
+                <tr>
+                  <td align="left" valign="top"><strong>Please describe both the pick up and delivery location facilities (loading dock, elevators, stairs, etc).  Are there any 
+                  truck size restrictions at either the pick up or delivery locations?</strong></td>
+                  <td align="left" valign="top"></td>
+                  <td valign="top"><textarea name="facilities" rows="10" class="field_message" ></textarea></td>
+                </tr>
+
+                <tr>
+                  <td align="left" valign="top"><strong>What type of service are your looking for: Crate and Freight, Shuttle, Last On-First Off, Expedited, Exclusive Use?</strong></td>
+                  <td align="left" valign="top"></td>
+                  <td valign="top"><textarea name="service" rows="4" class="field_message"></textarea></td>
+                </tr>
+
+                <tr>
+                  <td align="left" valign="top"><strong>Do you need transportation insurance?</strong></td>
+                  <td align="left" valign="top"><div class="required_text"></div></td>
+                  <td valign="top"><div class="radiobutton_container"><input name="insure" type="radio" value="Yes" />
+                  Yes</div>
+                    <div class="radiobutton_container"><input name="insure" type="radio" value="No" />
+                    No</div>				  </td>
+                </tr>
+
+                <tr>
+                  <td align="left" valign="top"><strong>How do you prefer to be contacted?  Phone, fax, or email? Is there a best time to reach you?</strong><br />
+                  </td>
+                  <td align="left" valign="top"></td>
+                  <td valign="top"><textarea name="contactpreference" rows="4" class="field_message" ></textarea></td>
+                </tr>
+
+                <tr>
+                  <td align="left" valign="top"><strong>How did you hear about us? </strong><br />
+                  </td>
+                  <td align="left" valign="top"></td>
+                  <td valign="top"><textarea name="hearabout" rows="4" class="field_message"></textarea></td>
+                </tr>
+                <tr>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top"><strong>Who would you like to receive your message? </strong></td>
+                  <td valign="top"><div class="required_text"></div></td>
+                  <td valign="top"><strong>San Franciso: </strong>
+                    <div class="radiobutton_container2">
+                      <input name="receive" type="radio" value="sanshuttle" />
+                  Shuttle Airfreight &amp; Installation</div>                    
+                    <div class="radiobutton_container2">
+                      <input name="receive" type="radio" value="sanlocal" />
+                      Local Transport</div>
+                    <div class="radiobutton_container2">
+                      <input name="receive" type="radio" value="sanimport" />
+                    International Shipping  - Import</div>
+                    <div class="radiobutton_container2">
+                      <input name="receive" type="radio" value="sanexport" />
+                      International Shipping  - Export </div>
+                    <div class="radiobutton_container2">
+                      <input name="receive" type="radio" value="sanrigging" />
+                      Rigging and Museum Exhibits </div>
+                    <br />
+                    
+                    <strong>Denver:</strong>
+                    <div class="radiobutton_container2">
+                      <input name="receive" type="radio" value="denaspen" />
+                      Aspen Shuttle </div>
+                    <div class="radiobutton_container2">
+                      <input name="receive" type="radio" value="denlocal" />
+                      Local Transport &amp; Installation</div>
+                    <div class="radiobutton_container2">
+                      <input name="receive" type="radio" value="denimport" />
+                    International Shipping  - Import</div>
+                    <div class="radiobutton_container2">
+                      <input name="receive" type="radio" value="denexport" />
+                      International Shipping  - Export </div>
+                    <div class="radiobutton_container2"><input name="receive" type="radio" value="denrigging" /> Rigging and Museum Exibits </div>
+                    <!-- <div class="radiobutton_container2"><input name="receive" type="radio" value="denstorage" /> Rigging and Museum Exibits </div> -->
+                    
+                    </td>
+                </tr>
+                                
+                <tr>
+                  <td></td>
+                  <td align="left" valign="top"></td>
+                  <td><input name="submit" type="submit" class="field_text" id="submit" value="Submit" /></td>
+                </tr>
+
+              </table>
+			  </form>
+
+
+
 
 		</div> <!-- /main -->
 
   
   </div>  <!-- /container-common -->
 </section>
-<footer class="clearfix">
-	<div class="container-common">
-	<div class="col1">
-    	<h3>Sitemap</h3>
-    	<ul>
-            <li><a href="/storage.html">Storage</a></li>
-            <li><a href="/pc-overview.html">Packing / Crating</a></li>
-            <li><a href="/installations-fineart.html">Installation</a></li>
-            <li><a href="/shuttle-overview.html">Art Transport</a></li>
-            <li><a href="/estimates.html">Estimates</a></li>
-            <li class="last"><a href="/contact.html">Contact</a></li>
-        </ul>
-    </div>
-    <div class="col2">
-    	&copy;2012 Ship Art 
-    </div>
-    <div class="col3">
-    	<h3>Contact</h3>
-    	<p class="icons-social"><a class="fb" href="https://www.facebook.com/pages/Ship-Art-International-and-Denver/195853177152069" target="_blank">Facebook</a></p>
-<p><strong>Ship Art International<br /></strong>
-P.O. Box 1966<br>
-South San Francisco, CA 94083-1966	<br>
-Phone: (650) 952-0100<br>
-Fax: (650) 952-8958</p>
-			    
-<p><strong>Ship Art Denver</strong><br />
-P.O. BOX 16662<br />
-Denver, CO 80216 <br />
-Phone: (303) 291-3906<br />
-Fax: (303) 291-3912</p>
-
-    </div>
-    </div>
-</footer>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try{ 
-var pageTracker = _gat._getTracker("UA-29423609-1");
-pageTracker._trackPageview();
-} catch(err) {} 
-</script>
-
-
-</body>
-</html>
-
+<?php include 'includes/footer.php'; ?>

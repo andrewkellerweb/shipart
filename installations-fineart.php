@@ -4,7 +4,7 @@
 <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>ShipArt | Packing/Crating Overview</title>
+<title>ShipArt | Installations | Fine Art</title>
 
 <meta name="Keywords" content="
 Fine Art Storage, Climate Controlled storage, Fine Art Transportation, Museum Quality storage, Storage Insurance, fine art crating, fine art handlers, fine art installation, fine art packing, fine art services,sculpture rigging, transporting artwork,San Francisco CA, California, Denver Co, Colorado and Aspen Colorado"/>
@@ -24,6 +24,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 <script src="js/jquery.naviDropDown.1.0.js" type="text/javascript"></script> <!-- dropdown -->
 
 <script src="js/jquery.lightbox-0.5.min.js"></script> <!-- lightbox -->
+
 
 <script type="text/javascript">
 $(function(){
@@ -66,7 +67,7 @@ $(function(){
 
 <header class="main">
     <div class="container-common clearfix">
-    <h1><a href="/">ShipArt</a></h1>
+    <a class="logo" href="/">ShipArt</a>
     <nav>
         <ul class="top">
             <li><a href="/transport-local.html">Other Services</a></li>
@@ -83,7 +84,7 @@ $(function(){
               </ul>
             </li>
             <li><a href="/storage.html">Storage</a></li>
-            <li class="active"><a href="/pc-overview.html">Packing / Crating</a>
+            <li><a href="/pc-overview.html">Packing / Crating</a>
                 <ul class="dropdown">
                     <li><a href="/pc-overview.html">Overview</a></li>
                     <li><a href="/pc-standard-crates.html">Standard Crates</a></li>
@@ -92,7 +93,7 @@ $(function(){
                 </ul>
             </li>
             
-            <li><a href="/installations-fineart.html">Installation</a>
+            <li class="active"><a href="/installations-fineart.html">Installation</a>
                 <ul class="dropdown">
                     <li><a href="/installations-fineart.html">Fine Art Installation</a></li>
                     <li><a href="/installations-rigging.html">Rigging</a></li>
@@ -106,77 +107,71 @@ $(function(){
 
 <section class="title">
 	<div class="container-common clearfix">
-    	<h2>Packing/Crating Overview</h2>
+    	<h2>Fine Art</h2>
     </div>
 </section>
 <section class="content clearfix">
 	<div class="container-common">
-	
-
 		<div class="main">
+  
+<p>     
+Fine Art Installation is about precision, security, and attention to detail. 
+</p>
+<p>
+Ship/Art provides professional art installation services to museum, gallery,
+ private, and corporate clients. Our installation team continues to deliver 
+exceptional technical know-how to every project, regardless of the number of 
+pieces or the size of the artwork. 
+Ship/Art specializes in:
+</p>
 
-			Ship Art builds crates to the highest specifications. Whether you need a cost-effective, one-way crate or a museum-quality traveling exhibition case, we can take care of it. We are backed with years of experience working with all mediums of fine arts and antiques. We are continually searching for advancements in products and technologies that enable us to construct the most stable environment possible for your traveling objects. Please follow the links on the right to see some of the various crates that we can build for you.
+<ul>
+	<li>Residential installations of a single artwork or an entire collection</li>
+	<li>Corporate Art Installation and Relocations</li>
+	<li>Security Hardware Installations</li>
+	<li>Cable Mounted Hanging Systems (Arakawa)</li>
+	<li>Seismic Stabilization</li>
+</ul>
 
-		</div> <!-- /main -->
+
+
+
+
+
+        
+    </div> <!-- /main -->
 	<aside>
-
-		<nav>
+    
+    	<nav>
         	<ul>
-                <li class="active"><a href="/pc-overview.html">Overview</a></li>
-            	<li><a href="/pc-standard-crates.html">Standard Crates</a></li>
-            	<li><a href="/pc-museum-crates.html">Museum Crates</a></li>
-            	<li><a href="/pc-packing-services.html">Packing Services</a></li>
+            	<li class="active"><a href="installations-fineart.html">Fine Art Installation</a></li>
+                <li><a href="installations-rigging.html">Rigging</a></li>
             </ul>
         </nav>
         
-        <div class="container-slider" id="slides">
-			<img src="images/pic-crating-overview.jpg" />        
-		</div> <!-- /container-slider -->
+    <div id="gallery" class="clearfix">
+    <ul>
+        <li>
+            <a href="images/installation-fine1.jpg" title="">
+                <img src="thumbs/installation-fine1.jpg"alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="images/installation-fine2.jpg" title="">
+                <img src="thumbs/installation-fine2.jpg"alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="images/installation-fine3.jpg" title="">
+                <img src="thumbs/installation-fine3.jpg"alt="" />
+            </a>
+        </li>
+
+    </ul>
+    </div>
 
 	</aside>
   
   </div>  <!-- /container-common -->
 </section>
-<footer class="clearfix">
-    <div class="container-common">
-        <div class="col1">
-            <h3>Sitemap</h3>
-            <ul>
-                <li><a href="/shuttle-overview.html">Shuttle Services</a></li>
-                <li><a href="/storage.html">Storage</a></li>
-                <li><a href="/pc-overview.html">Packing / Crating</a></li>
-                <li><a href="/installations-fineart.html">Installation</a></li>
-                <li><a href="/estimates.html">Estimates</a></li>
-                <li class="last"><a href="/transport-local.html">Other Services</a></li>
-                <li class="last"><a href="/contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="col2">
-            &copy;
-            <script language="javascript" type="text/javascript">
-            var today = new Date()
-            var year = today.getFullYear()
-            document.write(year)
-            </script> 
-            Ship Art 
-        </div>
-        <div class="col3">
-            <h3>Contact</h3>
-            <p class="icons-social"><a class="fb" href="https://www.facebook.com/pages/Ship-Art-International-and-Denver/195853177152069" target="_blank">Facebook</a></p>
-    <p><strong>Ship Art International<br /></strong>
-    P.O. Box 1966<br>
-    South San Francisco, CA 94083-1966  <br>
-    Phone: (650) 952-0100<br>
-    Fax: (650) 952-8958</p>
-                    
-    <p><strong>Ship Art Denver</strong><br />
-    P.O. BOX 16662<br />
-    Denver, CO 80216 <br />
-    Phone: (303) 291-3906<br />
-    Fax: (303) 291-3912</p>
-
-        </div>
-    </div>
-</footer>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>

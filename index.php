@@ -24,11 +24,11 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
   	<div class="container-common">
     	<div class="container-slider" id="slides">
   			<div class="slides_container">
-          <div class="slide"><a href="/shuttle-overview.html"><img src="images/pic-home-slider-shuttle.jpg" /></a></div>
-  				<div class="slide"><a href="/storage.html"><img src="images/pic-home-slider-storage.jpg" /></a></div>
-  				<div class="slide"><a href="/installations-fineart.html"><img src="images/pic-home-slider-fineart.jpg" /></a></div>
-          <div class="slide"><a href="/installations-rigging.html"><img src="images/pic-home-slider-rigging.jpg" /></a></div>
-          <div class="slide"><a href="/pc-overview.html"><img src="images/pic-home-slider-crating.jpg" /></a></div>
+          <div class="slide"><a href="/shuttle-overview.php"><img src="images/pic-home-slider-shuttle.jpg" /></a></div>
+  				<div class="slide"><a href="/storage.php"><img src="images/pic-home-slider-storage.jpg" /></a></div>
+  				<div class="slide"><a href="/installations-fineart.php"><img src="images/pic-home-slider-fineart.jpg" /></a></div>
+          <div class="slide"><a href="/installations-rigging.php"><img src="images/pic-home-slider-rigging.jpg" /></a></div>
+          <div class="slide"><a href="/pc-overview.php"><img src="images/pic-home-slider-crating.jpg" /></a></div>
   			</div>
       </div>
     </div>
@@ -41,7 +41,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           <img src="images/pic-home-shuttle.jpg" />
           <p>Ship/Art is proud to offer climate-controlled, air-ride Express Fine Art Shuttles three times a month to New York and Denver.</p>
         	<article>
-          	<a href="/shuttle-overview.html" class="btn-more">More</a>
+          	<a href="/shuttle-overview.php" class="btn-more">More</a>
           </article>
       </article>
     	<article>
@@ -59,7 +59,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
       </article>
       <div class="container-more">
         <article>
-        	<a href="/green.html" class="btn-more">More</a>
+        	<a href="/green.php" class="btn-more">More</a>
         </article>
         <article class="last">
         </article>

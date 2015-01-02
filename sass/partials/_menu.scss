@@ -43,9 +43,13 @@ header nav {
     float: right;
     display: block;
     ul.top {
-      margin: 20px 0 0 0;
+      margin: 0;
     }
   }
+}
+
+.page-inside nav.horizontal {
+  margin-bottom: 0;
 }
 
 #cssmenu {

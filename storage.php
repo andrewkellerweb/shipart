@@ -66,7 +66,7 @@ $(function(){
 
 <header class="main">
     <div class="container-common clearfix">
-    <h1><a href="/">ShipArt</a></h1>
+    <a class="logo" href="/">ShipArt</a>
     <nav>
         <ul class="top">
             <li><a href="/transport-local.html">Other Services</a></li>

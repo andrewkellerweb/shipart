@@ -6,34 +6,34 @@
   </a>
   <div id='cssmenu'>
     <ul class="top">
-      <li><a class="parent" href="/transport-local.html">Other Services</a></li>
-      <li><a class="parent" href="/contact.html">Contact</a></li>
+      <li><a class="parent" href="/transport-local.php">Other Services</a></li>
+      <li><a class="parent" href="/contact.php">Contact</a></li>
     </ul>
     <ul class="main" id="navigation_horiz">
-      <li class='has-sub'><a class="parent" href="/shuttle-overview.html">Shuttle Services</a>
+      <li class='has-sub'><a class="parent" href="/shuttle-overview.php">Shuttle Services</a>
         <ul class="dropdown">
-          <li><a href="shuttle-overview.html">Shuttle Services</a></li>
-          <li><a href="shuttle-sanfrancisco-losangeles.html">San Francisco / Los Angeles Shuttle</a></li>
-          <li><a href="shuttle-sanfrancisco-newyork.html">San Francisco / New York Shuttle</a></li>
-          <li><a href="shuttle-denver.html">Denver / Vail / Aspen Shuttle</a></li>
+          <li><a href="shuttle-overview.php">Overview</a></li>
+          <li><a href="shuttle-sanfrancisco-losangeles.php">San Francisco / Los Angeles Shuttle</a></li>
+          <li><a href="shuttle-sanfrancisco-newyork.php">San Francisco / New York Shuttle</a></li>
+          <li><a href="shuttle-denver.php">Denver / Vail / Aspen Shuttle</a></li>
         </ul>
       </li>
-      <li><a class="parent" href="/storage.html">Storage</a></li>
-      <li class='has-sub'><a class="parent" href="/pc-overview.html">Packing / Crating</a>
+      <li><a class="parent" href="/storage.php">Storage</a></li>
+      <li class='has-sub'><a class="parent" href="/pc-overview.php">Packing / Crating</a>
         <ul class="dropdown">
-            <li><a href="/pc-overview.html">Overview</a></li>
-            <li><a href="/pc-standard-crates.html">Standard Crates</a></li>
-            <li><a href="/pc-museum-crates.html">Museum Crates</a></li>
-            <li><a href="/pc-packing-services.html">Packing Services</a></li>
+            <li><a href="/pc-overview.php">Overview</a></li>
+            <li><a href="/pc-standard-crates.php">Standard Crates</a></li>
+            <li><a href="/pc-museum-crates.php">Museum Crates</a></li>
+            <li><a href="/pc-packing-services.php">Packing Services</a></li>
         </ul>
       </li>
-      <li class='has-sub'><a class="parent" href="/installations-fineart.html">Installation</a>
+      <li class='has-sub'><a class="parent" href="/installations-fineart.php">Installation</a>
         <ul class="dropdown">
-            <li><a href="/installations-fineart.html">Fine Art Installation</a></li>
-            <li><a href="/installations-rigging.html">Rigging</a></li>
+            <li><a href="/installations-fineart.php">Fine Art Installation</a></li>
+            <li><a href="/installations-rigging.php">Rigging</a></li>
         </ul>
       </li>
-      <li><a class="parent" href="/estimates.html">Estimates</a></li>
+      <li><a class="parent" href="/estimates.php">Estimates</a></li>
     </ul>
 	</div>
 </nav>

@@ -12,69 +12,14 @@ Fine Art Storage, Climate Controlled storage, Fine Art Transportation, Museum Qu
 <meta name="Description" content="
 Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Transportation, fine art packing, fine art crating,  rigging of fine art, artifacts, and antiques in San Francisco CA California, and Denver, CO Colorado and Aspen Colorado.
 "/>
-<link href="css/reset.css" rel="stylesheet" type="text/css" />
-<link href="css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
 
-<script src="js/modernizr.custom.38933.js"> </script> <!-- modernizr -->
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> <!-- jquery --> 
-
-<script src="js/jquery.easing.1.3.js" type="text/javascript"></script> <!-- dropdown -->
-<script src="js/jquery.hoverIntent.minified.js" type="text/javascript"></script> <!-- dropdown -->
-<script src="js/jquery.naviDropDown.1.0.js" type="text/javascript"></script> <!-- dropdown -->
-
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> <!-- slideshow -->
-<script src="js/slides.min.jquery.js"></script> <!-- slideshow -->
-
-<script type="text/javascript">
-$(function(){
- 
-    $('#navigation_horiz').naviDropDown({
-        slideDownDuration: 100, //easing duration for slideDown
-        slideUpDuration: 100, //easing duration for slideUp'
-    });
-
-});
-</script>
-<script>
-		$(function(){
-			$('#slides').slides({
-				preload: true,
-				preloadImage: 'images/pic-home-slider-storage.jpg',
-				play: 5000,
-				pause: 2500,
-				hoverPause: true,
-				effect: 'fade',
-				crossfade: true,
-			});
-		});
-</script>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-	_gaq.push(
-	  ['_setAccount', 'UA-16596458-2'],
-	  ['_trackPageview'],
-	  ['b._setAccount', 'UA-45401139-1'],
-	  ['b._trackPageview']
-	);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-</head>
+<?php include 'includes/header.php'; ?>
 
 <body class="page-inside one-col">
 
 <header class="main">
     <div class="container-common clearfix">
-    <h1><a href="/">ShipArt</a></h1>
+    <a class="logo" href="/">ShipArt</a>
     <nav>
         <ul class="top">
             <li><a href="/transport-local.html">Other Services</a></li>
@@ -236,46 +181,4 @@ $(function(){
   </div>  <!-- /container-common -->
 </section>
 
-<footer class="clearfix">
-    <div class="container-common">
-        <div class="col1">
-            <h3>Sitemap</h3>
-            <ul>
-                <li><a href="/shuttle-overview.html">Shuttle Services</a></li>
-                <li><a href="/storage.html">Storage</a></li>
-                <li><a href="/pc-overview.html">Packing / Crating</a></li>
-                <li><a href="/installations-fineart.html">Installation</a></li>
-                <li><a href="/estimates.html">Estimates</a></li>
-                <li class="last"><a href="/transport-local.html">Other Services</a></li>
-                <li class="last"><a href="/contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="col2">
-            &copy;
-            <script language="javascript" type="text/javascript">
-            var today = new Date()
-            var year = today.getFullYear()
-            document.write(year)
-            </script> 
-            Ship Art 
-        </div>
-        <div class="col3">
-            <h3>Contact</h3>
-            <p class="icons-social"><a class="fb" href="https://www.facebook.com/pages/Ship-Art-International-and-Denver/195853177152069" target="_blank">Facebook</a></p>
-    <p><strong>Ship Art International<br /></strong>
-    P.O. Box 1966<br>
-    South San Francisco, CA 94083-1966  <br>
-    Phone: (650) 952-0100<br>
-    Fax: (650) 952-8958</p>
-                    
-    <p><strong>Ship Art Denver</strong><br />
-    P.O. BOX 16662<br />
-    Denver, CO 80216 <br />
-    Phone: (303) 291-3906<br />
-    Fax: (303) 291-3912</p>
-
-        </div>
-    </div>
-</footer>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>
