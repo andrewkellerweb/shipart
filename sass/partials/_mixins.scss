@@ -17,6 +17,9 @@
   @else if $point == bp-xlarge {
      @media (min-width: 70em)  { @content ; }
   }
+  @else if $point == bp-lightbox {
+     @media (max-width: 55em)  { @content ; }
+  }
 }
 
 @mixin flexbox-container {

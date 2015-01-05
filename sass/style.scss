@@ -102,9 +102,10 @@ header.main {
 		text-indent: -9999px;
 		margin: 28px 0 0 23px;
 	}
-	.page-home .logo {
-		margin: 28px 0 40px 23px;
-	}
+}
+
+.page-home header.main .logo {
+	margin: 28px 0 40px 23px;
 }
 
 span.hide-text {
@@ -224,6 +225,7 @@ section.content aside li {
 	padding: 1px 0px 5px 25px;
 	background: url(images/arrow-orange-back.png) no-repeat left 0;
 	font-family: 'Arvo', serif;
+	transition: none;
 }
 
 .btn-back.right {
@@ -348,12 +350,13 @@ body.two-col section aside {
 
 section.content aside nav {
 	display: none;
-	@include bp(bp-large) {
+	@include bp(bp-small) {
 		background: #eeeeee;
 		border: 5px solid #cdcdcd;
 		padding: 20px;
 		font-size: 1.1em;
 		margin: 0 0 20px 0px;
+		display: block;
 	}
 }
 
@@ -461,7 +464,8 @@ section.content #gallery .col2 img {
 	top: 64px !important;
 	min-width: 210px;
 	font-size: .9em;
-	line-height: 1.4em
+	line-height: 1.4em;
+	display: none;
 }
 
 #navigation_horiz ul.dropdown li {
@@ -533,7 +537,10 @@ article.content-2col .col1 {
 }
 
 .schedule2 table {
-	width: 80%;
+	width: 100%;
+	@include bp(bp-large) {
+		width: 80%;
+	}
 }
 
 .slides_container {
@@ -612,7 +619,17 @@ input[type=text], textarea {
 	background-color: #2f2c26;
 }
 
-
+#jquery-lightbox {
+	a {
+		transition: none;
+	}
+	@include bp(bp-lightbox) {
+		#lightbox-container-image-box, img {
+			width: 100% !important;
+			height: auto !important;
+		}
+	}
+}
 
 
 

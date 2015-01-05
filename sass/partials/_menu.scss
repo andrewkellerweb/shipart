@@ -38,13 +38,18 @@ header nav {
       }
     }
   }
+  @include bp(bp-small) {
+    ul.top {
+      margin: 0;
+      ul {
+        display: none;
+      }
+    }
+  }
   @include bp(bp-large) {
     max-width: 40em;
     float: right;
     display: block;
-    ul.top {
-      margin: 0;
-    }
   }
 }
 

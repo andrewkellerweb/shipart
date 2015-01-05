@@ -3,13 +3,13 @@
       	<div class="col1">
           	<h3>Sitemap</h3>
           	<ul>
-              	<li><a href="/shuttle-overview.html">Shuttle Services</a></li>
-                  <li><a href="/storage.html">Storage</a></li>
-                  <li><a href="/pc-overview.html">Packing / Crating</a></li>
-                  <li><a href="/installations-fineart.html">Installation</a></li>
-                  <li><a href="/estimates.html">Estimates</a></li>
-                  <li class="last"><a href="/transport-local.html">Other Services</a></li>
-                  <li class="last"><a href="/contact.html">Contact</a></li>
+              	<li><a href="/shuttle-overview.php">Shuttle Services</a></li>
+                  <li><a href="/storage.php">Storage</a></li>
+                  <li><a href="/pc-overview.php">Packing / Crating</a></li>
+                  <li><a href="/installations-fineart.php">Installation</a></li>
+                  <li><a href="/estimates.php">Estimates</a></li>
+                  <li class="last"><a href="/transport-local.php">Other Services</a></li>
+                  <li class="last"><a href="/contact.php">Contact</a></li>
               </ul>
           </div>
           <div class="col2">

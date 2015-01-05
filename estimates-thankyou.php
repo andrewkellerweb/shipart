@@ -213,8 +213,7 @@ if ( $mail_object->send($recipients, $headers, $body) ) {
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>ShipArt | Estimates</title>
 
@@ -288,31 +287,31 @@ $(function(){
 	<a class="logo" href="/">ShipArt</a>
     <nav>
     	<ul id="navigation_horiz">
-            <li><a href="/storage.html">Storage</a></li>
-            <li><a href="/pc-overview.html">Packing / Crating</a>
+            <li><a href="/storage.php">Storage</a></li>
+            <li><a href="/pc-overview.php">Packing / Crating</a>
             	<ul class="dropdown">
-            		<li><a href="/pc-overview.html">Overview</a></li>
-            		<li><a href="/pc-standard-crates.html">Standard Crates</a></li>
-            		<li><a href="/pc-museum-crates.html">Museum Crates</a></li>
-            		<li><a href="/pc-packing-services.html">Packing Services</a></li>
+            		<li><a href="/pc-overview.php">Overview</a></li>
+            		<li><a href="/pc-standard-crates.php">Standard Crates</a></li>
+            		<li><a href="/pc-museum-crates.php">Museum Crates</a></li>
+            		<li><a href="/pc-packing-services.php">Packing Services</a></li>
             	</ul>
             </li>
-            <li><a href="/installations-fineart.html">Installation</a>
+            <li><a href="/installations-fineart.php">Installation</a>
             	<ul class="dropdown">
-            		<li><a href="/installations-fineart.html">Fine Art Installation</a></li>
-            		<li><a href="/installations-rigging.html">Rigging</a></li>
+            		<li><a href="/installations-fineart.php">Fine Art Installation</a></li>
+            		<li><a href="/installations-rigging.php">Rigging</a></li>
             	</ul>
             </li>
-            <li><a href="/shuttle-overview.html">Art Transport</a>
+            <li><a href="/shuttle-overview.php">Art Transport</a>
             	<ul class="dropdown">
-            		<li><a href="/shuttle-overview.html">Shuttle Services</a></li>
-            		<li><a href="/transport-local.html">Local Transport</a></li>
-            		<li><a href="/transport-air.html">Airfreight / Import & Export</a></li>
-            		<li><a href="/transport-certified.html">Certified Screening Facility</a></li>
+            		<li><a href="/shuttle-overview.php">Shuttle Services</a></li>
+            		<li><a href="/transport-local.php">Local Transport</a></li>
+            		<li><a href="/transport-air.php">Airfreight / Import & Export</a></li>
+            		<li><a href="/transport-certified.php">Certified Screening Facility</a></li>
             	</ul>
             </li>
-            <li class="active"><a href="/estimates.html">Estimates</a></li>
-            <li class="last"><a href="/contact.html">Contact</a></li>
+            <li class="active"><a href="/estimates.php">Estimates</a></li>
+            <li class="last"><a href="/contact.php">Contact</a></li>
         </ul>
     </nav>
     </div>
@@ -340,12 +339,12 @@ Your Estimate has been successfully sent. We will contact you soon in regards to
 	<div class="col1">
     	<h3>Sitemap</h3>
     	<ul>
-            <li><a href="/storage.html">Storage</a></li>
-            <li><a href="/pc-overview.html">Packing / Crating</a></li>
-            <li><a href="/installations-fineart.html">Installation</a></li>
-            <li><a href="/shuttle-overview.html">Art Transport</a></li>
-            <li><a href="/estimates.html">Estimates</a></li>
-            <li class="last"><a href="/contact.html">Contact</a></li>
+            <li><a href="/storage.php">Storage</a></li>
+            <li><a href="/pc-overview.php">Packing / Crating</a></li>
+            <li><a href="/installations-fineart.php">Installation</a></li>
+            <li><a href="/shuttle-overview.php">Art Transport</a></li>
+            <li><a href="/estimates.php">Estimates</a></li>
+            <li class="last"><a href="/contact.php">Contact</a></li>
         </ul>
     </div>
     <div class="col2">
