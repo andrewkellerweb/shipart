@@ -11,7 +11,18 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 "/>
 
 <?php include 'includes/header.php'; ?>
-
+<script src="js/responsiveslides.min.js"> //SLIDESHOW </script>
+<script>
+  $(function () {
+    $("#slider").responsiveSlides({
+      maxwidth: 960,
+      speed: 800,
+      pager: true,
+      timeout: 4000,
+      pause: true
+    });
+  });
+</script>
 <body class="page-home">
   <header class="main">
     <div class="container-common clearfix">
@@ -22,14 +33,69 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 
   <section class="featured">
   	<div class="container-common">
-    	<div class="container-slider" id="slides">
-  			<div class="slides_container">
-          <div class="slide"><a href="/shuttle-overview.php"><img src="images/pic-home-slider-shuttle.jpg" /></a></div>
-  				<div class="slide"><a href="/storage.php"><img src="images/pic-home-slider-storage.jpg" /></a></div>
-  				<div class="slide"><a href="/installations-fineart.php"><img src="images/pic-home-slider-fineart.jpg" /></a></div>
-          <div class="slide"><a href="/installations-rigging.php"><img src="images/pic-home-slider-rigging.jpg" /></a></div>
-          <div class="slide"><a href="/pc-overview.php"><img src="images/pic-home-slider-crating.jpg" /></a></div>
-  			</div>
+    	<div class="container-slider">
+  			<ul class="slides_container rslides" id="slider">
+          <li>
+            <a href="/shuttle-overview.php">
+            <picture>
+               <source media="(min-width: 34em)"
+                  srcset="images/pic-home-slider-shuttle.jpg 950w"
+                  sizes="(min-width: 950px) 930px"
+                />
+               <source srcset="images/pic-home-slider-shuttle-mobile.jpg 500w" />
+               <img src="images/pic-home-slider-shuttle.jpg" />
+            </picture>
+            </a>
+          </li>
+          <li>
+            <a href="/storage.php">
+            <picture>
+               <source media="(min-width: 34em)"
+                  srcset="images/pic-home-slider-storage.jpg 950w"
+                  sizes="(min-width: 950px) 930px"
+                />
+               <source srcset="images/pic-home-slider-storage-mobile.jpg 500w" />
+               <img src="images/pic-home-slider-storage.jpg" />
+            </picture>
+            </a>
+          </li>
+          <li>
+            <a href="/installations-fineart.php">
+            <picture>
+               <source media="(min-width: 34em)"
+                  srcset="images/pic-home-slider-fineart.jpg 950w"
+                  sizes="(min-width: 950px) 930px"
+                />
+               <source srcset="images/pic-home-slider-fineart-mobile.jpg 500w" />
+               <img src="images/pic-home-slider-fineart.jpg" />
+            </picture>
+            </a>
+          </li>
+          <li>
+            <a href="/installations-rigging.php">
+            <picture>
+               <source media="(min-width: 34em)"
+                  srcset="images/pic-home-slider-rigging.jpg 950w"
+                  sizes="(min-width: 950px) 930px"
+                />
+               <source srcset="images/pic-home-slider-rigging-mobile.jpg 500w" />
+               <img src="images/pic-home-slider-rigging.jpg" />
+            </picture>
+            </a>
+          </li>
+          <li>
+            <a href="/pc-overview.php">
+            <picture>
+               <source media="(min-width: 34em)"
+                  srcset="images/pic-home-slider-crating.jpg 950w"
+                  sizes="(min-width: 950px) 930px"
+                />
+               <source srcset="images/pic-home-slider-crating-mobile.jpg 500w" />
+               <img src="images/pic-home-slider-crating.jpg" />
+            </picture>
+            </a>
+          </li>
+  			</ul>
       </div>
     </div>
   </section> 

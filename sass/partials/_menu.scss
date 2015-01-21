@@ -61,28 +61,36 @@ header nav {
   @include flexbox-container();
   -webkit-flex-flow: row wrap;
   ul {
-    flex: 1 100%;
+    width: 100%;
+    @include flex(1 100%);
   }
   .top {
-    order: 2;
+    @include flexbox-order(2);
   }
   .main {
-    order: 1;
+    @include flexbox-order(1);
     @include bp(bp-xsmall) {
       max-width: 40em;
     }
   }
   @include bp(bp-small) {
     display: block;
+    ul {
+      width: auto;
+    }
   }
 }
 
 /* MEUN BUTTON begin */
 .slidebar {
-  right: -16em;
+  right: -14em;
   transition: right .7s ease-out;
-  position: absolute;
-  width: 16em;
+  -webkit-transition: right .7s ease-out;
+  -moz-transition: right .7s ease-out;
+  -o-transition: right .7s ease-out;
+  -ms-transform: right .7s ease-out;
+  position: fixed;
+  width: 14em;
   z-index: 9999;
   &.active {
     right: 0;
@@ -93,20 +101,32 @@ header nav {
       
       &::before, &::after {
         top: 20px; 
-        -webkit-transition: all 0.4s 0.2s ease-in-out; 
+        -webkit-transition: all 0.4s 0.2s ease-in-out;
+        -ms-transform: all 0.4s 0.2s ease-in-out;
+        -moz-transition: all 0.4s 0.2s ease-in-out; 
+        -o-transition: all 0.4s 0.2s ease-in-out; 
         transition: all 0.4s 0.2s ease-in-out;
       }
       &::before {
         -webkit-transform: rotate(-45deg); 
-        -ms-transform: rotate(-45deg); 
+        -ms-transform: rotate(-45deg);
+        -moz-transition: rotate(-45deg);
+        -o-transition: rotate(-45deg);
         transform: rotate(-45deg);
       }
       &::after {
         -webkit-transform: rotate(45deg); 
         -ms-transform: rotate(45deg); 
+        -moz-transition: rotate(45deg);
+        -o-transition: rotate(45deg);
         transform: rotate(45deg);
       }
     }
+  }
+
+  @include bp(bp-xsmaller) {
+    right: -16em;
+    width: 16em;
   }
 
   .srt {

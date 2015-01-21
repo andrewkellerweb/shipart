@@ -93,6 +93,12 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 				<h3>Los Angeles to San Francisco Shuttle, 2014 - 2015</h3>
 				<table>
 
+					<tr class="odd">
+						<th class="first"></th>
+						<th>Los Angeles Pick Up</th>
+						<th>San Francisco Delivery</th>
+					</tr>
+					
 					<tr class="even">
 						<td class="first">DEC. 1</td>
 						<td>Pick up December 8</td>

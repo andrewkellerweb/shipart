@@ -63,21 +63,12 @@
   }
 </script>
 
-<?php // SLIDESHOW ?>
-<script src="js/slides.min.jquery.js"></script> 
+<?php // PICTUREFILL ?>
 <script>
-    $(function(){
-      $('#slides').slides({
-        preload: true,
-        preloadImage: 'images/pic-home-slider-storage.jpg',
-        play: 5000,
-        pause: 2500,
-        hoverPause: true,
-        effect: 'fade',
-        crossfade: true,
-      });
-    });
+// Picture element HTML shim|v it for old IE (pairs with Picturefill.js)
+document.createElement( "picture" );
 </script>
+<script src="js/picturefill.js" async></script>
 
 <?php // GOOGLE ANALYTICS ?>
 <script type="text/javascript">

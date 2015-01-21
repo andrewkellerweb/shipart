@@ -1,6 +1,6 @@
 @mixin bp($point) {
    @if $point == bp-xsmaller {
-     @media (min-width: 35em) { @content ; }
+     @media (min-width: 27em) { @content ; }
   }
    @else if $point == bp-xsmall {
      @media (min-width: 40em) { @content ; }
@@ -28,6 +28,22 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+}
+
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  -ms-flex:  $values;
+  flex:  $values;
+}
+
+@mixin flexbox-order($ordernumber) {
+  order: $ordernumber;
+  -webkit-box-ordinal-group: $ordernumber;  
+  -moz-box-ordinal-group: $ordernumber;
+  -webkit-order: $ordernumber;
+  -ms-flex-order: $ordernumber;
 }
 
 @mixin slidebar-arrow-orange {
