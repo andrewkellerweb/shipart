@@ -16,7 +16,15 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 
 <header class="main">
     <div class="container-common clearfix">
-    <a class="logo" href="/">ShipArt</a>
+    <a class="logo" href="/">
+        <picture>
+          <img 
+            src="images/logo.png"
+            srcset="images/logo-2x.png 2x"
+            alt="Shipart"
+          />
+        </picture>
+      </a>
     <?php include 'includes/navigation.php' ?>
     </div>
 </header>

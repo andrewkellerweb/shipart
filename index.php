@@ -26,7 +26,15 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 <body class="page-home">
   <header class="main">
     <div class="container-common clearfix">
-      <a class="logo" href="/">ShipArt</a>
+      <a class="logo" href="/">
+        <picture>
+          <img 
+            src="images/logo.png"
+            srcset="images/logo-2x.png 2x"
+            alt="Shipart"
+          />
+        </picture>
+      </a>
       <?php include 'includes/navigation.php' ?>
     </div>
   </header>
@@ -38,60 +46,55 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           <li>
             <a href="/shuttle-overview.php">
             <picture>
-               <source media="(min-width: 34em)"
-                  srcset="images/pic-home-slider-shuttle.jpg 950w"
-                  sizes="(min-width: 950px) 930px"
-                />
-               <source srcset="images/pic-home-slider-shuttle-mobile.jpg 500w" />
-               <img src="images/pic-home-slider-shuttle.jpg" />
+              <source 
+                media="(min-width: 34em)"
+                srcset="images/pic-home-slider-shuttle.jpg"
+              />
+              <img src="images/pic-home-slider-shuttle-mobile.jpg" />
             </picture>
             </a>
           </li>
           <li>
             <a href="/storage.php">
             <picture>
-               <source media="(min-width: 34em)"
-                  srcset="images/pic-home-slider-storage.jpg 950w"
-                  sizes="(min-width: 950px) 930px"
-                />
-               <source srcset="images/pic-home-slider-storage-mobile.jpg 500w" />
-               <img src="images/pic-home-slider-storage.jpg" />
+              <source 
+                media="(min-width: 34em)"
+                srcset="images/pic-home-slider-storage.jpg 950w"
+              />
+              <img src="images/pic-home-slider-storage-mobile.jpg" />
             </picture>
             </a>
           </li>
           <li>
             <a href="/installations-fineart.php">
             <picture>
-               <source media="(min-width: 34em)"
-                  srcset="images/pic-home-slider-fineart.jpg 950w"
-                  sizes="(min-width: 950px) 930px"
-                />
-               <source srcset="images/pic-home-slider-fineart-mobile.jpg 500w" />
-               <img src="images/pic-home-slider-fineart.jpg" />
+              <source 
+                media="(min-width: 34em)"
+                srcset="images/pic-home-slider-fineart.jpg 950w"
+              />
+              <img src="images/pic-home-slider-fineart-mobile.jpg" />
             </picture>
             </a>
           </li>
           <li>
             <a href="/installations-rigging.php">
             <picture>
-               <source media="(min-width: 34em)"
-                  srcset="images/pic-home-slider-rigging.jpg 950w"
-                  sizes="(min-width: 950px) 930px"
-                />
-               <source srcset="images/pic-home-slider-rigging-mobile.jpg 500w" />
-               <img src="images/pic-home-slider-rigging.jpg" />
+              <source 
+                media="(min-width: 34em)"
+                srcset="images/pic-home-slider-rigging.jpg 950w"
+              />
+              <img src="images/pic-home-slider-rigging-mobile.jpg" />
             </picture>
             </a>
           </li>
           <li>
             <a href="/pc-overview.php">
             <picture>
-               <source media="(min-width: 34em)"
-                  srcset="images/pic-home-slider-crating.jpg 950w"
-                  sizes="(min-width: 950px) 930px"
-                />
-               <source srcset="images/pic-home-slider-crating-mobile.jpg 500w" />
-               <img src="images/pic-home-slider-crating.jpg" />
+              <source 
+                media="(min-width: 34em)"
+                srcset="images/pic-home-slider-crating.jpg 950w"
+              />
+              <img src="images/pic-home-slider-crating-mobile.jpg" />
             </picture>
             </a>
           </li>
