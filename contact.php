@@ -82,9 +82,9 @@ Domestic Shipments, Local moves <br>
 <a href="mailto:amy@shipart.com">amy@shipart.com</a><br>
 Ext: 312</p>
 
-<p><strong>Amber Stucke</strong><br>
+<p><strong>Mattie Stafford</strong><br>
 Domestic &amp; International Shipping Coordinator<br>
-<a target="_blank" href="mailto:Amber@shipart.com">Amber@shipart.com</a><u></u><br>
+<a target="_blank" href="mailto:mattie@shipart.com">mattie@shipart.com</a><u></u><br>
 Ext: 318</p>
 
 <p><strong>Becky Ebeling </strong><br>

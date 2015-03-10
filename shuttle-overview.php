@@ -51,8 +51,8 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 		          <a href="mailto:amy@shipart.com">amy@shipart.com</a>			  
 		          </p>
 		          <p>or</p>
-		          <p><strong>Amber Stucke</strong><br />
-		          <a href="mailto:amber@shipart.com">amber@shipart.com</a>			  
+		          <p><strong>Mattie Stafford</strong><br />
+		          <a href="mailto:mattie@shipart.com">mattie@shipart.com</a>			  
 		          </p>
 			  </blockquote>
 			  <p>For more information on the <strong>Denver -- Aspen</strong> shuttle, contact:</p>
