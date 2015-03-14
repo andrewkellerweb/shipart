@@ -1245,3 +1245,10 @@ form.form-long input[type=submit]:hover {
 }
 
 /* end SLIDESHOW */
+/* line 732, ../sass/style.scss */
+section.content .wufoo li {
+  background: inherit;
+  padding: inherit;
+  text-align: left;
+  margin-bottom: 20px;
+}
