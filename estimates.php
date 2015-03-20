@@ -48,11 +48,6 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
       action="https://shipart.wufoo.com/forms/zjq2vmg0cvx6bq/#public">
   
-<header id="header" class="info">
-<h2>Estimate</h2>
-<div></div>
-</header>
-
 <ul>
 
 <li id="foli9" class="notranslate      ">
