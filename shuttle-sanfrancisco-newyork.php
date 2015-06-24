@@ -42,7 +42,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 			
 			<article class="content-2col clearfix">
 				<div class="col1">
-					<p>The Fine Art Shuttle is an air-ride suspension, climate controlled truck driven by two Art Handlers. For assistance on scheduling and finalizing an estimate, please contact our domestic coordinators Amber Stucke @ ext. 318 or Amy Mutza @ ext. 312.</p>
+					<p>The Fine Art Shuttle is an air-ride suspension, climate controlled truck driven by two Art Handlers. For assistance on scheduling and finalizing an estimate, please contact our domestic coordinator Amy Mutza @ ext. 312.</p>
 				</div>
 				<div class="col2">
 			

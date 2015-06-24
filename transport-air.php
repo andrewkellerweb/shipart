@@ -56,7 +56,7 @@ We have many years of experience in all aspects of the airfreight industry. We a
 
 			  <p>For San Francisco exports and imports, please contact:</p>
 			  <blockquote>
-			    <p><strong>Becky Ebeling</strong><br />
+			    <p><strong>Becky Rose</strong><br />
 			    <a href="mailto:becky@shipart.com">becky@shipart.com</a></p>
 			  </blockquote>
 			  

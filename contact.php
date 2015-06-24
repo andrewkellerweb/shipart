@@ -83,11 +83,11 @@ Domestic Shipments, Local moves <br>
 Ext: 312</p>
 
 <p><strong>Mattie Stafford</strong><br>
-Domestic &amp; International Shipping Coordinator<br>
+Domestic Shipping Coordinator<br>
 <a target="_blank" href="mailto:mattie@shipart.com">mattie@shipart.com</a><u></u><br>
 Ext: 318</p>
 
-<p><strong>Becky Ebeling </strong><br>
+<p><strong>Becky Rose </strong><br>
 International Shipping Coordinator<br>
 Airfreight, International Shipping			    <br>
 <a href="mailto:Becky@shipart.com">Becky@shipart.com</a><br>
