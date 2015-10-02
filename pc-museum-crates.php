@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<title>ShipArt | Museum Crates</title>
+<title>Ship/Art | Museum Crates</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="Keywords" content="
@@ -41,7 +41,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 
 		<div class="main">
 
-			<p>Our standard traveling museum case is built to the highest standard for domestic and international museums. These crates are formulated to be used indefinitely for artwork that will travel extensively. Ship Art offers a variety of options to tailor the crate to the specific needs of the artworks involved.</p>  
+			<p>Our standard traveling museum case is built to the highest standard for domestic and international museums. These crates are formulated to be used indefinitely for artwork that will travel extensively. Ship/Art offers a variety of options to tailor the crate to the specific needs of the artworks involved.</p>  
 <p>The exterior of each museum case is waterproof and built to withstand the rigors of international travel. The interiors are designed to be an archival insulated environment to protect the objects from both fluctuations in temperature as well as any impact shocks that may be encountered during travel.</p>
 
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<title>ShipArt | Storage</title>
+<title>Ship/Art | Storage</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="Keywords" content="
 Fine Art Storage, Climate Controlled storage, Fine Art Transportation, Museum Quality storage, Storage Insurance, fine art crating, fine art handlers, fine art installation, fine art packing, fine art services,sculpture rigging, transporting artwork,San Francisco CA, California, Denver Co, Colorado and Aspen Colorado"/>
@@ -42,7 +42,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 <p>Both our San Francisco and Denver facilities are reinforced concrete warehouses armed with a UL-rated central security station and fire detection system. The central security station is monitored 24 hours a day, complete with radio backup. All facilities have infrared camera systems that detect motion in and around the warehouses. These can be monitored off-site at all times.</p>
 
 <p>The San Francisco warehouse structure has been completely retrofitted for earthquakes in the last five years. Facility reports can be provided upon request. </p>
-<p>The Ship Art companies are also well known throughout the insurance industry as providing the highest quality storage service. We will be happy to insure your work while it is in our secure facility.</p>
+<p>The Ship/Art companies are also well known throughout the insurance industry as providing the highest quality storage service. We will be happy to insure your work while it is in our secure facility.</p>
 <h3>ORGANIZATIONAL SYSTEM</h3>
 <p>Our new organizational system, STACI (Storage Tracking and Collections Inventory) utilizes a mobile in-warehouse tablet and bar-coding system which reduces human error by ensuring that each incoming object is efficiently and accurately recorded in our database.</p>
 

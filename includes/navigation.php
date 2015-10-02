@@ -21,7 +21,6 @@
           <li><a href="shuttle-overview.php">Overview</a></li>
           <li><a href="shuttle-sanfrancisco-losangeles.php">San Francisco / Los Angeles Shuttle</a></li>
           <li><a href="shuttle-sanfrancisco-newyork.php">San Francisco / New York Shuttle</a></li>
-          <li><a href="shuttle-denver.php">Denver / Vail / Aspen Shuttle</a></li>
         </ul>
       </li>
       <li><a class="parent" href="/storage.php">Storage</a></li>

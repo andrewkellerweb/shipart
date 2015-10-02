@@ -19,18 +19,18 @@
             var year = today.getFullYear()
             document.write(year)
             </script> 
-            Ship Art 
+            Ship/Art 
           </div>
           <div class="col3">
           	<h3>Contact</h3>
           	<p class="icons-social"><a class="fb" href="https://www.facebook.com/pages/Ship-Art-International-and-Denver/195853177152069" target="_blank">Facebook</a></p>
-      <p><strong>Ship Art International<br /></strong>
+      <p><strong>Ship/Art International<br /></strong>
       P.O. Box 1966<br>
       South San Francisco, CA 94083-1966	<br>
       Phone: (650) 952-0100<br>
       Fax: (650) 952-8958</p>
       			    
-      <p><strong>Ship Art Denver</strong><br />
+      <p><strong>Ship/Art Denver</strong><br />
       P.O. BOX 16662<br />
       Denver, CO 80216 <br />
       Phone: (303) 291-3906<br />

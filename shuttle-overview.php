@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<title>ShipArt | Shuttle Services | Overview</title>
+<title>Ship/Art | Shuttle Services | Overview</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="Keywords" content="
 Fine Art Storage, Climate Controlled storage, Fine Art Transportation, Museum Quality storage, Storage Insurance, fine art crating, fine art handlers, fine art installation, fine art packing, fine art services,sculpture rigging, transporting artwork,San Francisco CA, California, Denver Co, Colorado and Aspen Colorado"/>
@@ -48,18 +48,25 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 			  <p>For more information on the <strong>NYC / San Francisco </strong>shuttle, contact:</p>
 			  <blockquote>
 			    <p><strong>Amy Mutza</strong><br />
-		          <a href="mailto:amy@shipart.com">amy@shipart.com</a>			  
+		          <a href="mailto:amy@shipart.com">amy@shipart.com</a>
 		          </p>
 		          <p>or</p>
 		          <p><strong>Mattie Stafford</strong><br />
-		          <a href="mailto:mattie@shipart.com">mattie@shipart.com</a>			  
+		          <a href="mailto:mattie@shipart.com">mattie@shipart.com</a>
 		          </p>
 			  </blockquote>
-			  <p>For more information on the <strong>Denver -- Aspen</strong> shuttle, contact:</p>
+			  <p>For more information on the <strong>Denver -- Exclusives</strong> shuttle, contact:</p>
 			  <blockquote>
-			    <p><strong>Kate Ninneman </strong><br />
-			    <a href="mailto:kate@shipart.com">kate@shipart.com</a></p>
+			    <p><strong>Caitlin Coburn</strong><br />
+			    	International Shipping Coordinator/Special Projects<br />
+			    <a href="mailto:caitlin@shipart.com">caitlin@shipart.com</a></p>
+
+			    <p><strong>Alison Ricketson</strong><br />
+			    	Domestic Shipping Coordinator/Storage<br />
+			    <a href="mailto:Alison@shipart.com">Alison@shipart.com</a></p>
 			  </blockquote>
+
+
 		</div> <!-- /main -->
 	<aside>
     	<nav>
@@ -67,7 +74,6 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           	<li class="active"><a href="shuttle-overview.php">Shuttle Services</a></li>
             <li><a href="shuttle-sanfrancisco-losangeles.php">San Francisco / Los Angeles Shuttle</a></li>
             <li><a href="shuttle-sanfrancisco-newyork.php">San Francisco / New York Shuttle</a></li>
-            <li><a href="shuttle-denver.php">Denver / Vail / Aspen Shuttle</a></li>
           </ul>
         </nav>
         <div class="container-slider" id="slides">

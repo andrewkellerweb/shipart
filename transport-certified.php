@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<title>ShipArt | Transportation | Certified Screening Facility</title>
+<title>Ship/Art | Transportation | Certified Screening Facility</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="Keywords" content="
 Fine Art Storage, Climate Controlled storage, Fine Art Transportation, Museum Quality storage, Storage Insurance, fine art crating, fine art handlers, fine art installation, fine art packing, fine art services,sculpture rigging, transporting artwork,San Francisco CA, California, Denver Co, Colorado and Aspen Colorado"/>
@@ -37,7 +37,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 <section class="content clearfix">
 	<div class="container-common">
 		<div class="main">
-Under the Transportation Security Administration program, ShipArt international and ShipArt are both Certified Cargo Screening Facilities. This designation allows both companies to pre-screen air shipments traveling via passenger aircrafts prior to delivering to the airport, making the air shipping process more efficient and less costly. 
+Under the Transportation Security Administration program, Ship/Art International and Ship/Art Denver are both Certified Cargo Screening Facilities. This designation allows both companies to pre-screen air shipments traveling via passenger aircrafts prior to delivering to the airport, making the air shipping process more efficient and less costly. 
 		</div> <!-- /main -->
 	<aside>
     

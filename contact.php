@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<title>ShipArt | Contact</title>
+<title>Ship/Art | Contact</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="Keywords" content="
 Fine Art Storage, Climate Controlled storage, Fine Art Transportation, Museum Quality storage, Storage Insurance, fine art crating, fine art handlers, fine art installation, fine art packing, fine art services,sculpture rigging, transporting artwork,San Francisco CA, California, Denver Co, Colorado and Aspen Colorado"/>
@@ -38,7 +38,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 	<div class="container-common">
 		<div class="main">
 		
-<p><h3>Ship Art International</h3>
+<p><h3>Ship/Art International</h3>
 P.O. Box 1966<br>
 South San Francisco, CA 94083-1966	<br>
 Phone: (650) 952-0100<br>
@@ -66,13 +66,18 @@ Ext: 323</p>
 
 <p><strong>Danielle Cocilova Bier</strong><br>
 Assistant Business Manager<br>
-<a href="mailto:danielle@shipart.com">Danielle@shipart.com</a><br>
-Ext: 311</p>
+<a href="mailto:Danielle.bier@shipart.com">Danielle.bier@shipart.com</a><br>
+Ext: 305</p>
 
 <p><strong>Kim Filoteo	</strong><br>
 Business Manager<br>
 <a href="mailto:kimf@shipart.com">KimF@shipart.com</a><br>
 Ext: 314</p>
+
+<p><strong>Aileen Winstead</strong><br>
+Accounting Assistant<br>
+<a href="mailto:aileen@shipart.com">aileen@shipart.com</a><br>
+Ext: 311</p>
 
 <h4>Sales</h4>
   
@@ -106,7 +111,12 @@ Shipping Coordinator and installation specialist<br>
 <p><strong>Joël Frudden</strong><br>
 Shipping Coordinator and Installation Specialist<br>
 <a href="mailto:joel@shipart.com">Joel@shipart.com</a><br>
-Ext: 334</p>
+Ext: 332</p>
+
+<p><strong>Jason Weidemier</strong><br />
+Shipping Coordinator and Installation Specialist<br />
+<a href="mailto:jason@shipart.com">jason@shipart.com</a><br />
+Ext: 317</p>
 
 <p><strong>Jonathan Collis</strong><br>
 Local Dispatch<br>
@@ -118,10 +128,15 @@ Local and Domestic Shipping Coordinator<br>
 <a href="mailto:aimee@shipart.com">aimee@shipart.com</a><br>
 Ext: 320</p>
 
-<p><strong>Jason Weidemier</strong><br />
-Shipping Coordinator and Installation Specialist<br />
-<a href="mailto:jason@shipart.com">jason@shipart.com</a><br />
-Ext: 317</p>
+<p><strong>CK Dasho</strong><br>
+Project Manager<br>
+<a href="mailto:CK@shipart.com">CK@shipart.com</a><br>
+Ext: 334</p>
+
+<p><strong>Ian Mullen</strong><br>
+Project Manager/Rigging Specialist<br>
+<a href="mailto:Ian@shipart.com">Ian@shipart.com</a><br>
+Ext: 325</p>
 
 
 
@@ -143,7 +158,7 @@ Ext: 329</p>
 
 		</div> <!-- /main -->
 	<aside>
-  <p><h3>Ship Art Denver</h3>
+  <p><h3>Ship/Art Denver</h3>
                 P.O. BOX 16662<br>
                 Denver, CO 80216	<br>
                 Phone: (303) 291-3906<br>
@@ -152,21 +167,22 @@ Ext: 329</p>
 	            <strong>Alan Jones	</strong><br>
 	            General Manager <br>
                 <a href="mailto:alan@shipart.com">Alan@shipart.com</a></p>
-              
-              <p><strong>Stefani Schulte</strong><br>
-              Storage<br>
-              <a href="mailto:Stefani@shipart.com">Stefani@shipart.com</a></p>
-              
-              <p><strong>Heather Haldeman	</strong><br>
-                International Shipping Coordinator<br>
-                Airfreight, International Shipping<br>
-                <a href="mailto:heather@shipart.com">Heather@shipart.com</a>        </p>
-              <p><strong>Kate Ninneman</strong><br>
-                Domestic Shipping Coordinator<br>
-              <a target="_blank" href="mailto:kate@shipart.com">Kate@shipart.com</a></p>
+
+              <p><strong>Caitlin Coburn</strong><br>
+              International Shipping Coordinator/Special Projects<br>
+              <a href="mailto:caitlin@shipart.com">caitlin@shipart.com</a></p>
+
+              <p><strong>Alison Ricketson</strong><br>
+              Domestic Shipping Coordinator/Storage<br>
+              <a href="mailto:alison@shipart.com">alison@shipart.com</a></p>
+
+
+
+
+
               <p>&nbsp;</p>
               <h3>Employment</h3>
-              <p>Both Ship Art Denver and Ship Art International are looking for qualified art handlers and bookers please email resume to <a href="mailto:jobs@shipart.com">Jobs@shipart.com</a>.</p>
+              <p>Both Ship/Art Denver and Ship/Art International are looking for qualified art handlers and bookers please email resume to <a href="mailto:jobs@shipart.com">Jobs@shipart.com</a>.</p>
 	</aside>
   
   </div>  <!-- /container-common -->
