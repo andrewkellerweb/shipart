@@ -43,7 +43,6 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 			  <ul>
 			    <li><a href="/shuttle-sanfrancisco-losangeles.php">San Franciso / Los Angeles shuttle  </a> </li>
                 <li><a href="/shuttle-sanfrancisco-newyork.php">San Francisco / New York City Shuttle  </a> </li>
-		        <li><a href="/shuttle-denver.php">Denver / Vail / Aspen Shuttle  </a></li>
 			  </ul>
 			  <p>For more information on the <strong>NYC / San Francisco </strong>shuttle, contact:</p>
 			  <blockquote>

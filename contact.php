@@ -138,6 +138,13 @@ Project Manager/Rigging Specialist<br>
 <a href="mailto:Ian@shipart.com">Ian@shipart.com</a><br>
 Ext: 325</p>
 
+<h4>Storage Billing</h4>
+<p><strong>Danielle Cocilova Bier</strong><br />
+Assistant Business Manager<br />
+Storage Billing<br />
+<a href="mailto:Danielle.bier@shipart.com">Danielle.bier@shipart.com</a><br />
+Ext: 305</p>
+
 
 
 <h4>Storage/Warehouse</h4>

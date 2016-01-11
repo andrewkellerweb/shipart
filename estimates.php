@@ -47,9 +47,8 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 
 <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
       action="https://shipart.wufoo.com/forms/zjq2vmg0cvx6bq/#public">
-  
-<ul>
 
+<ul>
 <li id="foli9" class="notranslate      ">
 <label class="desc" id="title9" for="Field9">
 Name
@@ -64,59 +63,23 @@ Name
 <label for="Field10">Last</label>
 </span>
 </li>
-<li id="foli11" class="notranslate      ">
-<label class="desc" id="title11" for="Field11">
-Street Address
-</label>
-<div>
-<input id="Field11" name="Field11" type="text" class="field text medium" value="" maxlength="255" tabindex="3" onkeyup=""       />
-</div>
-</li>
-<li id="foli12" class="notranslate      ">
-<label class="desc" id="title12" for="Field12">
-State
-<span id="req_12" class="req">*</span>
-</label>
-<div>
-<input id="Field12" name="Field12" type="text" class="field text small" value="" maxlength="255" tabindex="4" onkeyup=""       required />
-</div>
-</li>
 <li id="foli13" class="phone notranslate      ">
 <label class="desc" id="title13" for="Field13">
 Phone Number
 </label>
 <span>
-<input id="Field13" name="Field13" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="5"       />
+<input id="Field13" name="Field13" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="3"       />
 <label for="Field13">###</label>
 </span>
 <span class="symbol">-</span>
 <span>
-<input id="Field13-1" name="Field13-1" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="6" />
+<input id="Field13-1" name="Field13-1" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="4" />
 <label for="Field13-1">###</label>
 </span>
 <span class="symbol">-</span>
 <span>
- <input id="Field13-2" name="Field13-2" type="tel" class="field text" value="" size="4" maxlength="4" tabindex="7" />
+ <input id="Field13-2" name="Field13-2" type="tel" class="field text" value="" size="4" maxlength="4" tabindex="5" />
 <label for="Field13-2">####</label>
-</span>
-</li>
-<li id="foli14" class="phone notranslate      ">
-<label class="desc" id="title14" for="Field14">
-Fax Number
-</label>
-<span>
-<input id="Field14" name="Field14" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="8"       />
-<label for="Field14">###</label>
-</span>
-<span class="symbol">-</span>
-<span>
-<input id="Field14-1" name="Field14-1" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="9" />
-<label for="Field14-1">###</label>
-</span>
-<span class="symbol">-</span>
-<span>
- <input id="Field14-2" name="Field14-2" type="tel" class="field text" value="" size="4" maxlength="4" tabindex="10" />
-<label for="Field14-2">####</label>
 </span>
 </li>
 <li id="foli15" class="notranslate      ">
@@ -125,14 +88,12 @@ Email
 <span id="req_15" class="req">*</span>
 </label>
 <div>
-<input id="Field15" name="Field15" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="11"       required />
+<input id="Field15" name="Field15" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="6"       required />
 </div>
 </li>
 <li id="foli16"
 class="notranslate      "><label class="desc" id="title16" for="Field16">
-What are the pick-up and delivery locations? <br />
-(City, State, ZIP):
-<span id="req_16" class="req">*</span>
+Please describe the pick-up location (loading dock, elevators, stairs, etc). Are there any truck size restrictions at either the pick up or delivery locations?
 </label>
 
 <div>
@@ -142,15 +103,15 @@ class="field textarea medium"
 spellcheck="true"
 rows="10" cols="50"
 
-tabindex="12"
+tabindex="7"
 onkeyup=""
-      required  ></textarea>
+       ></textarea>
 
 </div>
 </li>
 <li id="foli17"
 class="notranslate      "><label class="desc" id="title17" for="Field17">
-What are the transit deadlines, if any, and when is the shipment available for initial pick up?
+Please describe the delivery location (loading dock, elevators, stairs, etc). Are there any truck size restrictions at either the pick up or delivery locations?
 </label>
 
 <div>
@@ -160,7 +121,25 @@ class="field textarea medium"
 spellcheck="true"
 rows="10" cols="50"
 
-tabindex="13"
+tabindex="8"
+onkeyup=""
+       ></textarea>
+
+</div>
+</li>
+<li id="foli19"
+class="notranslate      "><label class="desc" id="title19" for="Field19">
+What are the transit deadlines, if any, and when is the shipment available for pick-up?  
+</label>
+
+<div>
+<textarea id="Field19"
+name="Field19"
+class="field textarea medium"
+spellcheck="true"
+rows="10" cols="50"
+
+tabindex="9"
 onkeyup=""
        ></textarea>
 
@@ -179,33 +158,15 @@ class="field textarea medium"
 spellcheck="true"
 rows="10" cols="50"
 
-tabindex="14"
+tabindex="10"
 onkeyup=""
       required  ></textarea>
 
 </div>
 </li>
-<li id="foli19"
-class="notranslate      "><label class="desc" id="title19" for="Field19">
-Please describe both the pick up and delivery location facilities (loading dock, elevators, stairs, etc). Are there any truck size restrictions at either the pick up or delivery locations?
-</label>
-
-<div>
-<textarea id="Field19"
-name="Field19"
-class="field textarea medium"
-spellcheck="true"
-rows="10" cols="50"
-
-tabindex="15"
-onkeyup=""
-       ></textarea>
-
-</div>
-</li>
 <li id="foli20"
 class="notranslate      "><label class="desc" id="title20" for="Field20">
-What type of service are you looking for: Crate and Freight, Shuttle, Last On-First Off, Expedited, Exclusive Use?
+What type of service are you looking for? Shuttle, Crate & Freight, Exclusive Use?
 </label>
 
 <div>
@@ -215,43 +176,23 @@ class="field textarea medium"
 spellcheck="true"
 rows="10" cols="50"
 
-tabindex="16"
+tabindex="11"
 onkeyup=""
        ></textarea>
 
 </div>
-</li><li id="foli21" class="notranslate      ">
-<fieldset>
-<![if !IE | (gte IE 8)]>
-<legend id="title21" class="desc">
-Do you need transportation insurance?
-<span id="req_21" class="req">*</span>
-</legend>
-<![endif]>
-<!--[if lt IE 8]>
-<label id="title21" class="desc">
-Do you need transportation insurance?
-<span id="req_21" class="req">*</span>
+</li>
+<li id="foli31" class="notranslate      ">
+<label class="desc" id="title31" for="Field31">
+If you are interested in transit insurance, please provide the total value of the shipment.
 </label>
-<![endif]-->
 <div>
-<input id="radioDefault_21" name="Field21" type="hidden" value="" />
-<span>
-<input id="Field21_0" name="Field21" type="radio" class="field radio" value="Yes" tabindex="17" checked="checked"     required />
-<label class="choice" for="Field21_0" >
-Yes</label>
-</span>
-<span>
-<input id="Field21_1" name="Field21" type="radio" class="field radio" value="No" tabindex="18"     required />
-<label class="choice" for="Field21_1" >
-No</label>
-</span>
+<input id="Field31" name="Field31" type="text" class="field text medium" value="" maxlength="255" tabindex="12" onkeyup=""       />
 </div>
-</fieldset>
 </li>
 <li id="foli22"
 class="notranslate      "><label class="desc" id="title22" for="Field22">
-How do you prefer to be contacted? Phone, fax, or email? Is there a best time to reach you?
+How do you prefer to be contacted? Is there a best time to reach you?
 </label>
 
 <div>
@@ -261,7 +202,7 @@ class="field textarea medium"
 spellcheck="true"
 rows="10" cols="50"
 
-tabindex="19"
+tabindex="13"
 onkeyup=""
        ></textarea>
 
@@ -272,7 +213,7 @@ onkeyup=""
 How did you hear about us?
 </label>
 <div>
-<input id="Field23" name="Field23" type="text" class="field text medium" value="" maxlength="255" tabindex="20" onkeyup=""       />
+<input id="Field23" name="Field23" type="text" class="field text medium" value="" maxlength="255" tabindex="14" onkeyup=""       />
 </div>
 </li><li id="foli25" class="notranslate      ">
 <fieldset>
@@ -291,14 +232,20 @@ Who would you like to receive this request?
 <div>
 <input id="radioDefault_25" name="Field25" type="hidden" value="" />
 <span>
-<input id="Field25_0" name="Field25" type="radio" class="field radio" value="Rocky Mountain / Denver Office" tabindex="21"     required />
+<input id="Field25_0" name="Field25" type="radio" class="field radio" value="Rocky Mountain / Denver Office" tabindex="15" checked="checked"     required />
 <label class="choice" for="Field25_0" >
-Rocky Mountain / Denver Office</label>
+<span class="choice__text">Rocky Mountain / Denver Office</span>
+<span class="choice__qty">
+</span>
+</label>
 </span>
 <span>
-<input id="Field25_1" name="Field25" type="radio" class="field radio" value="California / San Francisco Office" tabindex="22" checked="checked"     required />
+<input id="Field25_1" name="Field25" type="radio" class="field radio" value="California / San Francisco Office" tabindex="16"     required />
 <label class="choice" for="Field25_1" >
-California / San Francisco Office</label>
+<span class="choice__text">California / San Francisco Office</span>
+<span class="choice__qty">
+</span>
+</label>
 </span>
 </div>
 </fieldset>

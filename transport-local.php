@@ -56,14 +56,13 @@ Local Transport featuring:
 			    <p><strong>Aimee Harlib</strong><br />
 			    <a href="mailto:aimee@shipart.com">aimee@shipart.com</a></p>
 			  </blockquote>
-			  
+
 			  <p>For Denver transportation contact: </p>
 			  <blockquote>
-			    <p><strong>Kate Ninneman </strong><br />
-			    <a href="mailto:heather@shipart.com">kate@shipart.com</a></p>
+			    <p><strong>Alison Ricketson</strong><br />
+			   	Domestic Shipping Coordinator/Storage<br />
+			    <a href="mailto:Alison@shipart.com">Alison@shipart.com</a></p>
 			  </blockquote>
-			  
-
 
 		</div> <!-- /main -->
 	<aside>
