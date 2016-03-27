@@ -51,7 +51,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 
 			<article class="schedule2">
 
-				<h3>San Francisco to New York Shuttle, Fall 2015</h3>
+				<h3>San Francisco to New York Shuttle, Winter 2016</h3>
 				<table>
 					<tr class="odd">
 						<th class="first"></th>
@@ -59,66 +59,66 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 						<th>New York Delivery</th>
 					</tr>
 					<tr class="even">
-						<td class="first">OCT. 1</td>
-						<td>Pick up on or before Sept. 28</td>
-						<td>Oct. 13 - 19</td>
+						<td class="first">JAN. 1</td>
+						<td>Pick up on or before Jan. 4</td>
+						<td>Jan. 19 - 25</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">OCT. X1</td>
-						<td>Pick up on or before Oct. 8</td>
-						<td>Oct. 19 - 23</td>
+						<td class="first">JAN. X2</td>
+						<td>Pick up on or before Jan. 15</td>
+						<td>Jan. 25 - 29</td>
 					</tr>
 					<tr class="even">
-						<td class="first">OCT. 2</td>
-						<td>Pick up on or before Oct. 12</td>
-						<td>Oct. 27 - Nov. 2</td>
+						<td class="first">JAN. 2</td>
+						<td>Pick up on or before Jan. 19</td>
+						<td>Feb. 2 - 8</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">OCT. X2</td>
-						<td>Pick up on or before Oct. 23</td>
-						<td>Nov. 2 - 6</td>
+						<td class="first">FEB. X1</td>
+						<td>Pick up on or before Jan. 28</td>
+						<td>Feb. 8 - 12</td>
 					</tr>
 					<tr class="even">
-						<td class="first">NOV. 1</td>
-						<td>Pick up on or before Oct. 26</td>
-						<td>Nov. 10 - 16</td>
+						<td class="first">FEB. 1</td>
+						<td>Pick up on or before Feb. 1</td>
+						<td>Feb. 16 - 22</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">NOV. X1</td>
-						<td>Pick up on or before Nov. 5</td>
-						<td>Nov. 16 - 20</td>
+						<td class="first">FEB. X2</td>
+						<td>Pick up on or before Feb. 12</td>
+						<td>Feb. 22 - 26</td>
 					</tr>
 					<tr class="even">
-						<td class="first">NOV. 2</td>
-						<td>Pick up on or before Nov. 9</td>
-						<td>Nov. 24 - Dec. 4</td>
+						<td class="first">FEB. 2</td>
+						<td>Pick up on or before Feb. 16</td>
+						<td>Mar. 1 - 7</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">DEC. 1</td>
-						<td>Pick up on or before Nov. 30</td>
-						<td>Dec. 15 - 21</td>
+						<td class="first">MAR. X1</td>
+						<td>Pick up on or before Feb. 25</td>
+						<td>Mar. 7 - 11</td>
 					</tr>
 					<tr class="even">
-						<td class="first">DEC. X1</td>
-						<td>Pick up on or before Dec. 3</td>
-						<td>Dec. 14 - 18</td>
+						<td class="first">MAR. 1</td>
+						<td>Pick up on or before Feb. 29</td>
+						<td>Mar. 15 - 21</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">DEC. 2</td>
-						<td>Pick up on or before Dec. 7</td>
-						<td>Dec. 21 - 31</td>
+						<td class="first">MAR. X2</td>
+						<td>Pick up on or before Mar. 11</td>
+						<td>Mar. 21 - 25</td>
 					</tr>
 					<tr class="even">
-						<td class="first">DEC. X2</td>
-						<td>Pick up on or before Dec. 11</td>
-						<td>Dec. 21 - 31</td>
+						<td class="first">MAR. 2</td>
+						<td>Pick up on or before Mar. 15</td>
+						<td>Mar. 29 - Apr. 4</td>
 					</tr>
 				</table>
 
 			</article>
 
 			<article class="schedule2">
-				<h3>New York to San Francisco Shuttle, Fall 2015</h3>
+				<h3>New York to San Francisco Shuttle, Winter 2016</h3>
 				<table>
 					<tr class="odd">
 						<th class="first"></th>
@@ -127,61 +127,61 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 					</tr>
 
 					<tr class="even">
-						<td class="first">OCT. 1</td>
-						<td>Pick up Sept. 18 - 24</td>
-						<td>Delivery on or after Oct. 7</td>
+						<td class="first">JAN. 1</td>
+						<td>Pick up Jan. 21 - 30</td>
+						<td>Delivery on or after Jan. 13</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">OCT. X1</td>
-						<td>Pick up Oct. 2 - 8</td>
-						<td>Delivery on or after Oct. 14</td>
+						<td class="first">JAN. X2</td>
+						<td>Pick up Jan. 8 - 14</td>
+						<td>Delivery on or after Jan. 21</td>
 					</tr>
 					<tr class="even">
-						<td class="first">OCT. 2</td>
-						<td>Pick up Oct. 2 - 8</td>
-						<td>Delivery on or after Oct. 21</td>
+						<td class="first">JAN. 2</td>
+						<td>Pick up Jan. 8 - 14</td>
+						<td>Delivery on or after Jan. 28</td>
 					</tr>
 
 					<tr class="odd">
-						<td class="first">OCT. X2</td>
-						<td>Pick up Oct. 16 - 22</td>
-						<td>Delivery on or after Oct. 29</td>
+						<td class="first">FEB. X1</td>
+						<td>Pick up Jan. 22 - 28</td>
+						<td>Delivery on or after Feb. 3</td>
 					</tr>
 					<tr class="even">
-						<td class="first">NOV. 1</td>
-						<td>Pick up Oct. 16 - 22</td>
-						<td>Delivery on or after Nov. 4</td>
+						<td class="first">FEB. 1</td>
+						<td>Pick up Jan. 22 - 28</td>
+						<td>Delivery on or after Feb. 10</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">NOV. X1</td>
-						<td>Pick up Oct. 29 - Nov. 5</td>
-						<td>Delivery on or after Nov. 11</td>
+						<td class="first">FEB. X2</td>
+						<td>Pick up FEb. 5 - 11</td>
+						<td>Delivery on or after Feb. 18</td>
 					</tr>
 
 					<tr class="even">
-						<td class="first">NOV. 2</td>
-						<td>Pick up Oct. 30 - Nov. 5</td>
-						<td>Delivery on or after Nov. 18</td>
+						<td class="first">FEB. 2</td>
+						<td>Pick up Feb. 5 - 11</td>
+						<td>Delivery on or after Feb. 25</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">DEC. 1</td>
-						<td>Pick up Nov. 17 - 24</td>
-						<td>Delivery on or after Dec. 9</td>
+						<td class="first">MAR. X1</td>
+						<td>Pick up Feb. 18 - 24</td>
+						<td>Delivery on or after Mar. 2</td>
 					</tr>
 					<tr class="even">
-						<td class="first">DEC. X1</td>
-						<td>Pick up Nov. 23 - Dec. 3</td>
-						<td>Delivery on or after Dec. 9</td>
+						<td class="first">MAR. 1</td>
+						<td>Pick up Feb. 19 - 25</td>
+						<td>Delivery on or after Mar. 9</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">DEC. 2</td>
-						<td>Pick up Nov. 23 - Dec. 4</td>
-						<td>Delivery on or after Dec. 16</td>
+						<td class="first">MAR. X2</td>
+						<td>Pick up Mar. 4 - 10</td>
+						<td>Delivery on or after Mar. 17</td>
 					</tr>
 					<tr class="even">
-						<td class="first">DEC. X2</td>
-						<td>Pick up Dec. 4 - 10</td>
-						<td>Delivery on or after Dec. 17</td>
+						<td class="first">MAR. 2</td>
+						<td>Pick up Mar. 4 - 10</td>
+						<td>Delivery on or after Mar. 24</td>
 					</tr>
 				</table>
 			</article>

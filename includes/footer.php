@@ -8,8 +8,9 @@
                   <li><a href="/pc-overview.php">Packing / Crating</a></li>
                   <li><a href="/installations-fineart.php">Installation</a></li>
                   <li><a href="/estimates.php">Estimates</a></li>
-                  <li class="last"><a href="/transport-local.php">Other Services</a></li>
-                  <li class="last"><a href="/contact.php">Contact</a></li>
+                  <li><a href="/transport-local.php">Other Services</a></li>
+                  <li><a href="/contact.php">Contact</a></li>
+                  <li class="last"><a target="_blank" href="https://get.teamviewer.com/59jca5z">Computer Support</a></li>
               </ul>
           </div>
           <div class="col2">
