@@ -51,7 +51,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 		
 			<article class="schedule2">
 			
-				<h3>San Francisco to Los Angeles Shuttle, Winter 2016</h3>
+				<h3>San Francisco to Los Angeles Shuttle, Spring 2016</h3>
 				<table>
 					<tr class="odd">
 						<th class="first"></th>
@@ -59,41 +59,41 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 						<th>Los Angeles Delivery</th>
 					</tr>
 					<tr class="even">
-						<td class="first">JAN. 1</td>
-						<td>Pick up on or before Jan. 7</td>
-						<td>Jan. 15 - 19</td>
+						<td class="first">APR. 1</td>
+						<td>Pick up on or before Apr. 7</td>
+						<td>Apr. 15 - 19</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">JAN. 2</td>
-						<td>Pick up on or before Jan. 21</td>
-						<td>Jan. 29 - Feb. 2</td>
+						<td class="first">APR. 2</td>
+						<td>Pick up on or before Apr. 21</td>
+						<td>Apr. 29 - May 3</td>
 					</tr>
 					<tr class="even">
-						<td class="first">FEB. 1</td>
-						<td>Pick up on or before Feb. 4</td>
-						<td>Feb. 12 - 16</td>
+						<td class="first">MAY 1</td>
+						<td>Pick up on or before May 5</td>
+						<td>May 13 - 17</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">FEB. 2</td>
-						<td>Pick up on or before Feb. 18</td>
-						<td>Feb. 26 - Mar. 1</td>
+						<td class="first">MAY 2</td>
+						<td>Pick up on or before May 19</td>
+						<td>May 27 - Jun. 1</td>
 					</tr>
 					<tr class="even">
-						<td class="first">MAR. 1</td>
-						<td>Pick up on or before Mar. 3</td>
-						<td>Mar. 11 - 15</td>
+						<td class="first">JUN. 1</td>
+						<td>Pick up on or before Jun. 9</td>
+						<td>Jun. 17 - 21</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">MAR. 2</td>
-						<td>Pick up on or before Mar. 17</td>
-						<td>Mar. 25 - 29</td>
+						<td class="first">JUN. 2</td>
+						<td>Pick up on or before Jun. 23</td>
+						<td>Jul. 1 - 6</td>
 					</tr>
 				</table>
 
 			</article>
 
 			<article class="schedule2">
-				<h3>Los Angeles to San Francisco Shuttle, Winter 2016</h3>
+				<h3>Los Angeles to San Francisco Shuttle, Spring 2016</h3>
 				<table>
 
 					<tr class="odd">
@@ -103,34 +103,34 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 					</tr>
 
 					<tr class="even">
-						<td class="first">JAN. 1</td>
-						<td>Pick up Jan. 7 - 11</td>
-						<td>Delivery on or after Jan. 15</td>
+						<td class="first">APR. 1</td>
+						<td>Pick up Apr. 7 - 11</td>
+						<td>Delivery on or after Apr. 20</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">JAN. 2</td>
-						<td>Pick up Jan. 21 - 25</td>
-						<td>Delivery on or after Jan. 29</td>
+						<td class="first">APR. 2</td>
+						<td>Pick up Apr. 21 - 25</td>
+						<td>Delivery on or after Apr. 29</td>
 					</tr>
 					<tr class="even">
-						<td class="first">FEB. 1</td>
-						<td>Pick up Feb. 4 - 8</td>
-						<td>Delivery on or after Feb. 12</td>
+						<td class="first">MAY 1</td>
+						<td>Pick up May 5 - 9</td>
+						<td>Delivery on or after May 13</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">FEB. 2</td>
-						<td>Pick up Feb. 18 - 22</td>
-						<td>Delivery on or after Feb. 26</td>
+						<td class="first">MAY 2</td>
+						<td>Pick up May 19 - 23</td>
+						<td>Delivery on or after May 27</td>
 					</tr>
 					<tr class="even">
-						<td class="first">MAR. 1</td>
-						<td>Pick up Mar. 3 - 7</td>
-						<td>Delivery on or after Mar. 11</td>
+						<td class="first">JUN. 1</td>
+						<td>Pick up Jun. 9 - 13</td>
+						<td>Delivery on or after Jun. 17</td>
 					</tr>
 					<tr class="odd">
-						<td class="first">MAR. 2</td>
-						<td>Pick up Mar. 17 - 21</td>
-						<td>Delivery on or after Mar. 25</td>
+						<td class="first">JUN. 2</td>
+						<td>Pick up Jun. 23 - 27</td>
+						<td>Delivery on or after Jul. 1</td>
 					</tr>
 
 				</table>
