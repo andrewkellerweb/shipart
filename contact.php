@@ -92,12 +92,6 @@ Domestic Shipping Coordinator<br>
 <a target="_blank" href="mailto:mattie@shipart.com">mattie@shipart.com</a><u></u><br>
 Ext: 318</p>
 
-<p><strong>Becky Rose </strong><br>
-International Shipping Coordinator<br>
-Airfreight, International Shipping			    <br>
-<a href="mailto:Becky@shipart.com">Becky@shipart.com</a><br>
-Ext: 328</p>
-
 <p><strong>William Emmert</strong><br>
 Shipping Coordinator<br>
 <a href="mailto:william@shipart.com">William@shipart.com</a><br>
@@ -124,7 +118,7 @@ Local Dispatch<br>
 Ext: 326</p>
 
 <p><strong>Aimee Harlib</strong><br>
-Local and Domestic Shipping Coordinator<br>
+International Shipping Coordinator / Airfreight, and Domestic Shipping Coordinator<br>
 <a href="mailto:aimee@shipart.com">aimee@shipart.com</a><br>
 Ext: 320</p>
 
@@ -158,11 +152,6 @@ Warehouse Manager<br>
 <a href="mailto:jonathan@shipart.com">Jonathan@shipart.com</a><br>
 Ext: 320</p>
 
-<p><strong>Elizabeth Olveda</strong><br />
-Assistant Storage Registrar<br />
-<a href="mailto:amy@shipart.com">elizabeth@shipart.com</a><br />
-Ext: 329</p>
-
 		</div> <!-- /main -->
 	<aside>
   <p><h3>Ship/Art Denver</h3>
@@ -179,9 +168,9 @@ Ext: 329</p>
               International Shipping Coordinator/Special Projects<br>
               <a href="mailto:caitlin@shipart.com">caitlin@shipart.com</a></p>
 
-              <p><strong>Alison Ricketson</strong><br>
-              Domestic Shipping Coordinator/Storage<br>
-              <a href="mailto:alison@shipart.com">alison@shipart.com</a></p>
+              <p><strong>Erik Mikelsons</strong><br>
+              Domestic Shipping Coordinator<br>
+              <a href="mailto:erik@shipart.com">erik@shipart.com</a></p>
 
 
 
