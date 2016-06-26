@@ -59,10 +59,10 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 			    <p><strong>Caitlin Coburn</strong><br />
 			    	International Shipping Coordinator/Special Projects<br />
 			    <a href="mailto:caitlin@shipart.com">caitlin@shipart.com</a></p>
-
-			    <p><strong>Alison Ricketson</strong><br />
+					<p>or</p>
+			    <p><strong>Erik Mikelsons</strong><br />
 			    	Domestic Shipping Coordinator/Storage<br />
-			    <a href="mailto:Alison@shipart.com">Alison@shipart.com</a></p>
+			    <a href="mailto:erik@shipart.com">erik@shipart.com</a></p>
 			  </blockquote>
 
 
@@ -76,7 +76,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           </ul>
         </nav>
         <div class="container-slider" id="slides">
-			<img src="images/pic-transport-shuttle.jpg" />        
+			<img src="images/pic-transport-shuttle.jpg" />
 		</div> <!-- /container-slider -->
 
 	</aside>

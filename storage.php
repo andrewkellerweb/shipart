@@ -66,8 +66,8 @@ To receive an estimate for San Francisco please contact:
 To receive an estimate for Denver please contact:
 </p>
 <p>
-<strong>Alan Jones</strong> <br />
-<a href="mailto:Alan@shipart.com">Alan@shipart.com</a>
+<strong>Alison Ricketson</strong><br>
+<a href="mailto:alison@shipart.com">alison@shipart.com</a></p>
 </p>
 
 	</div> <!-- /main -->

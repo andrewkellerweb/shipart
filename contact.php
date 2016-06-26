@@ -152,6 +152,14 @@ Warehouse Manager<br>
 <a href="mailto:jonathan@shipart.com">Jonathan@shipart.com</a><br>
 Ext: 320</p>
 
+
+<p><strong>Roxanne Burton</strong><br>
+Assistant Storage Registrar<br>
+<a href="mailto:roxanne@shipart.com">roxanne@shipart.com</a><br>
+Ext: 329</p>
+
+
+
 		</div> <!-- /main -->
 	<aside>
   <p><h3>Ship/Art Denver</h3>
@@ -167,6 +175,10 @@ Ext: 320</p>
               <p><strong>Caitlin Coburn</strong><br>
               International Shipping Coordinator/Special Projects<br>
               <a href="mailto:caitlin@shipart.com">caitlin@shipart.com</a></p>
+
+              <p><strong>Alison Ricketson</strong><br>
+              Storage Registrar<br>
+              <a href="mailto:alison@shipart.com">alison@shipart.com</a></p>
 
               <p><strong>Erik Mikelsons</strong><br>
               Domestic Shipping Coordinator<br>
