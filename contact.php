@@ -154,7 +154,7 @@ Ext: 320</p>
 
 
 <p><strong>Roxanne Burton</strong><br>
-Assistant Storage Registrar<br>
+Associate Storage Registrar<br>
 <a href="mailto:roxanne@shipart.com">roxanne@shipart.com</a><br>
 Ext: 329</p>
 

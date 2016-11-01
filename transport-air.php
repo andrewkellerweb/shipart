@@ -56,18 +56,16 @@ We have many years of experience in all aspects of the airfreight industry. We a
 
 			  <p>For San Francisco exports and imports, please contact:</p>
 			  <blockquote>
-			    <p><strong>Becky Rose</strong><br />
-			    <a href="mailto:becky@shipart.com">becky@shipart.com</a></p>
+			    <p><strong>Aimee Harlib</strong><br />
+			    <a href="mailto:aimee@shipart.com">aimee@shipart.com</a></p>
 			  </blockquote>
-			  
+
 			  <p>For exports and imports from Denver, please contact: </p>
 			  <blockquote>
-			    <p><strong>Heather Haldeman</strong><br />
-			    <a href="mailto:heather@shipart.com">heather@shipart.com</a></p>
+			    <p><strong>Caitlin Coburn</strong><br />
+			    <a href="mailto:caitlin@shipart.com">caitlin@shipart.com</a></p>
 			  </blockquote>
-			  
 
-			  
 		</div> <!-- /main -->
 		
 	<aside>

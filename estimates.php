@@ -47,7 +47,6 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 
 <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
       action="https://shipart.wufoo.com/forms/zjq2vmg0cvx6bq/#public">
-
 <ul>
 <li id="foli9" class="notranslate      ">
 <label class="desc" id="title9" for="Field9">
@@ -93,7 +92,7 @@ Email
 </li>
 <li id="foli16"
 class="notranslate      "><label class="desc" id="title16" for="Field16">
-Please describe the pick-up location (loading dock, elevators, stairs, etc). Are there any truck size restrictions at either the pick up or delivery locations?
+Pick-up Location (please note loading dock, elevators, stairs, any truck size restrictions, etc)
 </label>
 
 <div>
@@ -111,7 +110,7 @@ onkeyup=""
 </li>
 <li id="foli17"
 class="notranslate      "><label class="desc" id="title17" for="Field17">
-Please describe the delivery location (loading dock, elevators, stairs, etc). Are there any truck size restrictions at either the pick up or delivery locations?
+Delivery location (please note loading dock, elevators, stairs, any truck size restrictions, etc)
 </label>
 
 <div>
@@ -129,7 +128,7 @@ onkeyup=""
 </li>
 <li id="foli19"
 class="notranslate      "><label class="desc" id="title19" for="Field19">
-What are the transit deadlines, if any, and when is the shipment available for pick-up?  
+When is the piece available for pick-up?  Is there a deadline for delivery?
 </label>
 
 <div>
@@ -147,7 +146,7 @@ onkeyup=""
 </li>
 <li id="foli18"
 class="notranslate      "><label class="desc" id="title18" for="Field18">
-Please describe the items that you would like transported, including sizes and weights and if the items are packed and/or crated:
+Describe the items that you would like transported. Please include sizes and weights and if the items are packed and/or crated:
 <span id="req_18" class="req">*</span>
 </label>
 
@@ -215,10 +214,10 @@ How did you hear about us?
 <div>
 <input id="Field23" name="Field23" type="text" class="field text medium" value="" maxlength="255" tabindex="14" onkeyup=""       />
 </div>
-</li><li id="foli25" class="notranslate      ">
+</li><li id="foli25" class="     ">
 <fieldset>
 <![if !IE | (gte IE 8)]>
-<legend id="title25" class="desc">
+<legend id="title25" class="desc notranslate">
 Who would you like to receive this request?
 <span id="req_25" class="req">*</span>
 </legend>
@@ -234,7 +233,7 @@ Who would you like to receive this request?
 <span>
 <input id="Field25_0" name="Field25" type="radio" class="field radio" value="Rocky Mountain / Denver Office" tabindex="15" checked="checked"     required />
 <label class="choice" for="Field25_0" >
-<span class="choice__text">Rocky Mountain / Denver Office</span>
+<span class="choice__text notranslate">Rocky Mountain / Denver Office</span>
 <span class="choice__qty">
 </span>
 </label>
@@ -242,7 +241,7 @@ Who would you like to receive this request?
 <span>
 <input id="Field25_1" name="Field25" type="radio" class="field radio" value="California / San Francisco Office" tabindex="16"     required />
 <label class="choice" for="Field25_1" >
-<span class="choice__text">California / San Francisco Office</span>
+<span class="choice__text notranslate">California / San Francisco Office</span>
 <span class="choice__qty">
 </span>
 </label>
