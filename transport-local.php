@@ -25,7 +25,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           />
         </picture>
       </a>
-    <?php include 'includes/navigation.php' ?>
+    <?php include 'includes/navigation.php'; ?>
     </div>
 </header>
 
@@ -53,15 +53,19 @@ Local Transport featuring:
 			    <p><strong>Jonathan Collis</strong><br />
 			    <a href="mailto:JC@shipart.com">JC@shipart.com</a></p>
 			    <p>OR</p>
-			    <p><strong>Aimee Harlib</strong><br />
-			    <a href="mailto:aimee@shipart.com">aimee@shipart.com</a></p>
+			    <p><strong>Alice Dauchez</strong><br />
+          Local Project Coordinator<br>
+			    <a href="mailto:alice@shipart.com">alice@shipart.com</a><br>
+          Ext: 303
+          </p>
+
 			  </blockquote>
 
 			  <p>For Denver transportation contact: </p>
 			  <blockquote>
 			    <p><strong>Alison Ricketson</strong><br />
 			   	Domestic Shipping Coordinator/Storage<br />
-			    <a href="mailto:Alison@shipart.com">Alison@shipart.com</a></p>
+			    <a href="mailto:Alison@sa-tdi.com">Alison@sa-tdi.com</a></p>
 			  </blockquote>
 
 		</div> <!-- /main -->
@@ -78,6 +82,15 @@ Local Transport featuring:
         <div class="container-slider" id="slides">
 			<img src="images/pic-transport-truck.jpg" />        
 		</div> <!-- /container-slider -->
+
+    <div class="container-callout__stage">
+      <div class="container-callout__text">
+        We are proud to announce our new climate warehouse in Livermore, CA
+      </div>
+      <a href="/livermore-warehouse" class="container-callout__image">
+        <img src="/images/callout-livermore.jpg">
+      </a>
+    </div>
 
 	</aside>
   

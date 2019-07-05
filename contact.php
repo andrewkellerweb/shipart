@@ -25,7 +25,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           />
         </picture>
       </a>
-    <?php include 'includes/navigation.php' ?>
+    <?php include 'includes/navigation.php'; ?>
     </div>
 </header>
 
@@ -48,95 +48,101 @@ Fax: (650) 952-8958<br>
 <strong>Tim Polishook	<br>
 </strong>CEO<br>
 Sales, Rigging, Large Scale Installations, Moves, Storage <br>
-<a href="mailto:tim@shipart.com">Tim@shipart.com</a><br>
+<a href="mailto:tim@shipart.com">tim@shipart.com</a><br>
 Ext: 316</p>
 
 <p><strong>Greg Gahagan	</strong><br>
-Operations Manager<br>
+COO<br>
 Museum Exhibits, Crating, Large Scale Moves <br>
-<a href="mailto:greg@shipart.com">Greg@shipart.com</a><br>
+<a href="mailto:greg@shipart.com">greg@shipart.com</a><br>
 Ext: 321</p>
 
 <h4>Business Office</h4>
 
 <p><strong>Jennifer Polishook	</strong><br>
 CFO <br>
-<a href="mailto:jennifer@shipart.com">Jennifer@shipart.com</a><br>
-Ext: 323</p>
+<a href="mailto:jennifer@shipart.com">jennifer@shipart.com</a><br>
+Ext: 301</p>
 
 <p><strong>Danielle Cocilova Bier</strong><br>
-Assistant Business Manager<br>
-<a href="mailto:Danielle.bier@shipart.com">Danielle.bier@shipart.com</a><br>
+Accounting Manager<br>
+<a href="mailto:danielle.bier@shipart.com">danielle.bier@shipart.com</a><br>
 Ext: 305</p>
 
 <p><strong>Kim Filoteo	</strong><br>
 Business Manager<br>
-<a href="mailto:kimf@shipart.com">KimF@shipart.com</a><br>
+<a href="mailto:kimf@shipart.com">kimf@shipart.com</a><br>
 Ext: 314</p>
 
-<p><strong>Aileen Winstead</strong><br>
-Accounting Assistant<br>
-<a href="mailto:aileen@shipart.com">aileen@shipart.com</a><br>
-Ext: 311</p>
+<p><strong>Shindy Pagba</strong><br>
+Director of Human Resources<br>
+<a href="mailto:shindy@shipart.com">shindy@shipart.com</a><br>
+Ext: 311
+</p>
+
 
 <h4>Sales</h4>
-  
+
 <p><strong>Amy Mutza</strong> <br>
-Domestic Shipping Coordinator<br>
-Domestic Shipments, Local moves <br>
+Project Manager<br>
 <a href="mailto:amy@shipart.com">amy@shipart.com</a><br>
 Ext: 312</p>
 
-<p><strong>Mattie Stafford</strong><br>
-Domestic Shipping Coordinator<br>
-<a target="_blank" href="mailto:mattie@shipart.com">mattie@shipart.com</a><u></u><br>
-Ext: 318</p>
-
 <p><strong>William Emmert</strong><br>
-Shipping Coordinator<br>
-<a href="mailto:william@shipart.com">William@shipart.com</a><br>
+Project Manager<br>
+<a href="mailto:william@shipart.com">william@shipart.com</a><br>
 Ext: 315</p>
 
 <p><strong>Jos Pollard</strong><br>
-Shipping Coordinator and installation specialist<br>
-<a href="mailto:jos@shipart.com">Jos@shipart.com<br>
+Senior Project Manager and Installation Specialist<br>
+<a href="mailto:jos@shipart.com">jos@shipart.com<br>
 </a>Ext: 327			  </p>
 
 <p><strong>Joël Frudden</strong><br>
-Shipping Coordinator and Installation Specialist<br>
-<a href="mailto:joel@shipart.com">Joel@shipart.com</a><br>
+Senior Project Manager and Installation Specialist<br>
+<a href="mailto:joel@shipart.com">joel@shipart.com</a><br>
 Ext: 332</p>
 
 <p><strong>Jason Weidemier</strong><br />
-Shipping Coordinator and Installation Specialist<br />
+Senior Project Manager and Sales Office Manager<br />
 <a href="mailto:jason@shipart.com">jason@shipart.com</a><br />
 Ext: 317</p>
 
 <p><strong>Jonathan Collis</strong><br>
-Local Dispatch<br>
-<a href="mailto:jc@shipart.com">JC@shipart.com</a><br>
+Dispatch / Project Manager<br>
+<a href="mailto:jc@shipart.com">jc@shipart.com</a><br>
 Ext: 326</p>
 
 <p><strong>Aimee Harlib</strong><br>
-International Shipping Coordinator / Airfreight, and Domestic Shipping Coordinator<br>
+International Project Manager<br>
 <a href="mailto:aimee@shipart.com">aimee@shipart.com</a><br>
-Ext: 320</p>
+Ext: 328</p>
 
 <p><strong>CK Dasho</strong><br>
-Project Manager<br>
-<a href="mailto:CK@shipart.com">CK@shipart.com</a><br>
+Senior Project Manager<br>
+<a href="mailto:ck@shipart.com">ck@shipart.com</a><br>
 Ext: 334</p>
 
 <p><strong>Ian Mullen</strong><br>
-Project Manager/Rigging Specialist<br>
-<a href="mailto:Ian@shipart.com">Ian@shipart.com</a><br>
+Senior Project Manager/Rigging Specialist/Truck Co-Manager<br>
+<a href="mailto:ian@shipart.com">ian@shipart.com</a><br>
 Ext: 325</p>
+
+<p><strong>Luke Andrade</strong><br>
+Truck Co-Manager and Installation Specialist<br>
+<a href="mailto:luke@shipart.com">luke@shipart.com</a><br>
+Ext: 325</p>
+
+<p><strong>Alice Dauchez</strong><br />
+Local Project Coordinator<br />
+<a href="mailto:alice@shipart.com">alice@shipart.com</a><br />
+Ext: 303</p>
 
 <h4>Storage Billing</h4>
 <p><strong>Danielle Cocilova Bier</strong><br />
-Assistant Business Manager<br />
+Accounting Manager<br />
 Storage Billing<br />
-<a href="mailto:Danielle.bier@shipart.com">Danielle.bier@shipart.com</a><br />
+<a href="mailto:danielle.bier@shipart.com">danielle.bier@shipart.com</a><br />
 Ext: 305</p>
 
 
@@ -144,17 +150,17 @@ Ext: 305</p>
 <h4>Storage/Warehouse</h4>
 
 <p><strong>Cassandra Richman</strong>&nbsp;<br>
-Storage Registrar<a href="mailto:Cassandra@shipart.com"><br>Cassandra@shipart.com</a><br>
+Head Registrar<a href="mailto:cassandra@shipart.com"><br>cassandra@shipart.com</a><br>
 Ext: 324</p>
 
 <p><strong>Jonathan Runcio</strong><br>
 Warehouse Manager<br>
-<a href="mailto:jonathan@shipart.com">Jonathan@shipart.com</a><br>
+<a href="mailto:jonathan@shipart.com">jonathan@shipart.com</a><br>
 Ext: 320</p>
 
 
 <p><strong>Roxanne Burton</strong><br>
-Associate Storage Registrar<br>
+Senior Registrar<br>
 <a href="mailto:roxanne@shipart.com">roxanne@shipart.com</a><br>
 Ext: 329</p>
 
@@ -162,35 +168,27 @@ Ext: 329</p>
 
 		</div> <!-- /main -->
 	<aside>
-  <p><h3>Ship/Art Denver</h3>
-                P.O. BOX 16662<br>
-                Denver, CO 80216	<br>
+  <p><h3>Ship/Art Terry Dowd</h3>
+                P.O. BOX 111045<br>
+                Aurora, CO 80042	<br>
                 Phone: (303) 291-3906<br>
                 Fax: (303) 291-3912<br>
                 <br>
 	            <strong>Alan Jones	</strong><br>
-	            General Manager <br>
-                <a href="mailto:alan@shipart.com">Alan@shipart.com</a></p>
+	            COO/GM <br>
+                <a href="mailto:alan@sa-tdi.com">alan@sa-tdi.com</a></p>
 
               <p><strong>Caitlin Coburn</strong><br>
-              International Shipping Coordinator/Special Projects<br>
-              <a href="mailto:caitlin@shipart.com">caitlin@shipart.com</a></p>
+              Client Service Manager<br>
+              <a href="mailto:caitlin@sa-tdi.com">caitlin@sa-tdi.com</a></p>
 
               <p><strong>Alison Ricketson</strong><br>
-              Storage Registrar<br>
-              <a href="mailto:alison@shipart.com">alison@shipart.com</a></p>
-
-              <p><strong>Erik Mikelsons</strong><br>
-              Domestic Shipping Coordinator<br>
-              <a href="mailto:erik@shipart.com">erik@shipart.com</a></p>
-
-
-
-
+              Senior Storage Registrar<br>
+              <a href="mailto:alison@sa-tdi.com">alison@sa-tdi.com</a></p>
 
               <p>&nbsp;</p>
               <h3>Employment</h3>
-              <p>Both Ship/Art Denver and Ship/Art International are looking for qualified art handlers and bookers please email resume to <a href="mailto:jobs@shipart.com">Jobs@shipart.com</a>.</p>
+              <p>Both Ship/Art Terry Dowd and Ship/Art International are looking for qualified art handlers and bookers please email resume to <a href="mailto:jobs@shipart.com">Jobs@shipart.com</a>.</p>
 	</aside>
   
   </div>  <!-- /container-common -->

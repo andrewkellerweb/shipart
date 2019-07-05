@@ -26,7 +26,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           />
         </picture>
       </a>
-    <?php include 'includes/navigation.php' ?>
+    <?php include 'includes/navigation.php'; ?>
     </div>
 </header>
 

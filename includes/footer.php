@@ -7,7 +7,7 @@
                   <li><a href="/storage.php">Storage</a></li>
                   <li><a href="/pc-overview.php">Packing / Crating</a></li>
                   <li><a href="/installations-fineart.php">Installation</a></li>
-                  <li><a href="/estimates.php">Estimates</a></li>
+                  <!--<li><a href="/estimates.php">Estimates</a></li>-->
                   <li><a href="/transport-local.php">Other Services</a></li>
                   <li><a href="/contact.php">Contact</a></li>
                   <li class="last"><a target="_blank" href="https://get.teamviewer.com/59jca5z">Computer Support</a></li>
@@ -24,21 +24,23 @@
           </div>
           <div class="col3">
           	<h3>Contact</h3>
-          	<p class="icons-social"><a class="fb" href="https://www.facebook.com/pages/Ship-Art-International-and-Denver/195853177152069" target="_blank">Facebook</a></p>
-      <p><strong>Ship/Art International<br /></strong>
-      P.O. Box 1966<br>
-      South San Francisco, CA 94083-1966	<br>
-      Phone: (650) 952-0100<br>
-      Fax: (650) 952-8958</p>
-      			    
-      <p><strong>Ship/Art Denver</strong><br />
-      P.O. BOX 16662<br />
-      Denver, CO 80216 <br />
-      Phone: (303) 291-3906<br />
-      Fax: (303) 291-3912</p>
+          	<p class="icons-social">
+              <a class="fb" href="https://www.facebook.com/pages/Ship-Art-International-and-Denver/195853177152069" target="_blank">Facebook</a>
+              <a class="instagram" href="https://www.instagram.com/shipartinternational/" target="_blank">Instagram</a>
+            </p>
+        <p><strong>Ship/Art International<br /></strong>
+        P.O. Box 1966<br>
+        South San Francisco, CA 94083-1966	<br>
+        Phone: (650) 952-0100<br>
+        Fax: (650) 952-8958</p>
 
-          </div>
+        <p><strong>Ship/Art Terry Dowd</strong><br>
+        P.O. BOX 111045<br>
+        Aurora, CO 80042<br>
+        Phone: (303) 291-3906<br>
+        Fax: (303) 291-3912</p>
       </div>
+    </div>
   </footer>
 
 <script src="js/slidebar.js"></script> <?php // Slidebar ?>
@@ -48,11 +50,11 @@
 <script type="text/javascript">
   if (window.matchMedia("(min-width: 45em)").matches) {
     $.getScript("js/jquery.hoverIntent.minified.js", function(){
-    });
-    $.getScript("js/jquery.naviDropDown.1.0.js", function(){
-      $('#navigation_horiz').naviDropDown({
-        slideDownDuration: 100, //easing duration for slideDown
-        slideUpDuration: 100, //easing duration for slideUp'
+      $.getScript("js/jquery.naviDropDown.1.0.js", function(){
+        $('#navigation_horiz').naviDropDown({
+          slideDownDuration: 100, //easing duration for slideDown
+          slideUpDuration: 100, //easing duration for slideUp'
+        });
       });
     });
     $("#slidebar-container").toggleClass("slidebar");

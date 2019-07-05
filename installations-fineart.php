@@ -25,7 +25,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           />
         </picture>
       </a>
-    <?php include 'includes/navigation.php' ?>
+    <?php include 'includes/navigation.php'; ?>
     </div>
 </header>
 
@@ -86,6 +86,15 @@ Ship/Art specializes in:
         </li>
 
     </ul>
+    </div>
+
+		<div class="container-callout__stage">
+      <div class="container-callout__text">
+        We are proud to announce our new climate warehouse in Livermore, CA
+      </div>
+      <a href="/livermore-warehouse" class="container-callout__image">
+        <img src="/images/callout-livermore.jpg">
+      </a>
     </div>
 
 	</aside>

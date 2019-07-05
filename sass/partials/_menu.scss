@@ -1,7 +1,7 @@
 header nav {
   font-family: 'Arvo', sans-serif;
   font-size: 1.15em;
-  margin-bottom: 50px;
+
   @include bp(bp-small) {
     ul {
       float: right;
@@ -39,6 +39,11 @@ header nav {
     }
   }
   @include bp(bp-small) {
+    max-width: 40em;
+    float: right;
+    display: block;
+    margin-top: 20px;
+
     ul.top {
       margin: 0;
       ul {
@@ -47,9 +52,7 @@ header nav {
     }
   }
   @include bp(bp-large) {
-    max-width: 40em;
-    float: right;
-    display: block;
+
   }
 }
 
@@ -59,6 +62,7 @@ header nav {
 
 #cssmenu {
   @include flexbox-container();
+  flex-direction: column;
   -webkit-flex-flow: row wrap;
   ul {
     width: 100%;
@@ -89,7 +93,7 @@ header nav {
   -moz-transition: right .7s ease-out;
   -o-transition: right .7s ease-out;
   -ms-transform: right .7s ease-out;
-  position: fixed;
+  position: absolute;
   width: 14em;
   z-index: 9999;
   &.active {

@@ -25,7 +25,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           />
         </picture>
       </a>
-    <?php include 'includes/navigation.php' ?>
+    <?php include 'includes/navigation.php'; ?>
     </div>
 </header>
 
@@ -37,7 +37,8 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 <section class="content clearfix">
 	<div class="container-common">
 		<div class="main">
-<p>Ship/Art’s San Francisco and Denver warehouses combined boast a total of over 75,000 square feet of the highest quality storage space, 30,000 square feet of which are temperature and humidity controlled. We use an advanced digital processing system to precisely monitor humidity (45% +/- 3%) and temperature (68F +/- 3). </p>
+
+<p>Ship/Art’s San Francisco warehouses combined boast a total of over 75,000 square feet of the highest quality storage space, 45,000 square feet of which are temperature and humidity controlled. We use an advanced digital processing system to precisely monitor humidity (45%+/-5%) and temperature (68F +/-5).</p>
 <h3>SECURITY</h3>
 <p>Both our San Francisco and Denver facilities are reinforced concrete warehouses armed with a UL-rated central security station and fire detection system. The central security station is monitored 24 hours a day, complete with radio backup. All facilities have infrared camera systems that detect motion in and around the warehouses. These can be monitored off-site at all times.</p>
 
@@ -67,7 +68,7 @@ To receive an estimate for Denver please contact:
 </p>
 <p>
 <strong>Alison Ricketson</strong><br>
-<a href="mailto:alison@shipart.com">alison@shipart.com</a></p>
+<a href="mailto:alison@sa-tdi.com">alison@sa-tdi.com</a></p>
 </p>
 
 	</div> <!-- /main -->
@@ -92,6 +93,15 @@ To receive an estimate for Denver please contact:
 		        </li>
 		    </ul>
 		</div>
+
+    <div class="container-callout__stage">
+      <div class="container-callout__text">
+        We are proud to announce our new climate warehouse in Livermore, CA
+      </div>
+      <a href="/livermore-warehouse" class="container-callout__image">
+        <img src="/images/callout-livermore.jpg">
+      </a>
+    </div>
 	</aside>
   
   </div>  <!-- /container-common -->

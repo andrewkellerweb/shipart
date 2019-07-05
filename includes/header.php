@@ -12,5 +12,5 @@
 <meta name="msapplication-TileImage" content="favicon/favicon-144.png">
 
 <script src="js/modernizr.custom.38933.js"> </script> <!-- modernizr -->
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> <!-- jquery -->
+<script src="js/jquery.min.js" type="text/javascript"></script>
 </head>

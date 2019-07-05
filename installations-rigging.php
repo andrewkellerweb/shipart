@@ -26,7 +26,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           />
         </picture>
       </a>
-    <?php include 'includes/navigation.php' ?>
+    <?php include 'includes/navigation.php'; ?>
     </div>
 </header>
 
@@ -60,7 +60,7 @@ San Francisco contact:<br />
 <p>
 Denver contact:<br />
 <strong>Alan Jones</strong><br />
-<a href="mailto:alan@shipart.com">alan@shipart.com</a>
+<a href="mailto:alan@sa-tdi.com">alan@sa-tdi.com</a>
 </p>
 
 		</div> <!-- /main -->
@@ -129,6 +129,15 @@ Denver contact:<br />
     </ul>
     
     </div>
+
+        <div class="container-callout__stage">
+          <div class="container-callout__text">
+            We are proud to announce our new climate warehouse in Livermore, CA
+          </div>
+          <a href="/livermore-warehouse" class="container-callout__image">
+            <img src="/images/callout-livermore.jpg">
+          </a>
+        </div>
 
 	</aside>
   

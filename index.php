@@ -35,7 +35,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           />
         </picture>
       </a>
-      <?php include 'includes/navigation.php' ?>
+      <?php include 'includes/navigation.php'; ?>
     </div>
   </header>
 
@@ -109,31 +109,20 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
       	<h2>NY Express Shuttle</h2>
           <img src="images/pic-home-shuttle.jpg" />
           <p>Ship/Art is proud to offer climate-controlled, air-ride Express Fine Art Shuttles three times a month to New York and Denver.</p>
-        	<article>
-          	<a href="/shuttle-overview.php" class="btn-more">More</a>
-          </article>
+        	<a href="/shuttle-overview.php" class="btn-more">More</a>
       </article>
     	<article>
-        	<h2>Green Statement</h2>
-            <img src="images/pic-home-green.jpg" />
-            <p>Ship/Art has developed an extensive environmental program at both our San Francisco and Denver Offices. </p>
+      	<h2>Green Statement</h2>
+          <img src="images/pic-home-green.jpg" />
+        <p>Ship/Art has developed an extensive environmental program at both our San Francisco and Denver Offices. </p>
+        <a href="/green.php" class="btn-more">More</a>
       </article>
-    	<article class="last testimonial">
-      	<h2>Testimonial</h2>
-          <blockquote>
-          	<p>Packing and shipping mastery on the West Coast, with climate-controlled transportation anywhere.</p>
-          	<h4>The New York Times</h4>
-              <div class="title"></div>
-          </blockquote>
+    	<article class="last">
+        <h2>New Warehouse</h2>
+        <img src="images/home-callout-livermore.jpg" />
+        <p>We are proud to announce our new climate warehouse in Livermore, CA</p>
+        <a href="/livermore-warehouse" class="btn-more">More</a>
       </article>
-      <div class="container-more">
-        <article>
-        	<a href="/green.php" class="btn-more">More</a>
-        </article>
-        <article class="last">
-        </article>
-      </div>
-    </div>
   </section>
 
 <?php include 'includes/footer.php'; ?>

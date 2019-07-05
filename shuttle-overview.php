@@ -25,7 +25,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           />
         </picture>
       </a>
-    <?php include 'includes/navigation.php' ?>
+    <?php include 'includes/navigation.php'; ?>
     </div>
 </header>
 
@@ -40,47 +40,35 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 <p>Ship/Art is proud to offer climate-controlled, air-ride Express Fine Art Shuttles three times a month to New York and Denver. We also offer a Fine Art Shuttle to Los Angeles twice a month. Our Express Shuttles provide a safe and secure method of transporting all types of art work. Please see our shuttle schedule for available dates and contact Ship/Art for an estimate.</p>
 
 <p>Ship/Art also offers Fine Art Shuttles to almost any destination in the United States. All shuttles are equipped to museum quality specifications, are fully alarmed and have security tracking systems. At Ship/Art we work with a network of fine art handlers to find the safest way to transport your shipment while maintaining deadlines and competitive rates.</p>
-			  <ul>
-			    <li><a href="/shuttle-sanfrancisco-losangeles.php">San Franciso / Los Angeles shuttle  </a> </li>
-                <li><a href="/shuttle-sanfrancisco-newyork.php">San Francisco / New York City Shuttle  </a> </li>
-			  </ul>
-			  <p>For more information on the <strong>NYC / San Francisco </strong>shuttle, contact:</p>
+
+			  <p>For more information on shuttle dates for the <strong>NYC / San Francisco </strong>shuttle, contact:</p>
 			  <blockquote>
 			    <p><strong>Amy Mutza</strong><br />
 		          <a href="mailto:amy@shipart.com">amy@shipart.com</a>
 		          </p>
 		          <p>or</p>
-		          <p><strong>Mattie Stafford</strong><br />
-		          <a href="mailto:mattie@shipart.com">mattie@shipart.com</a>
+		          <p><strong>Beau Casazza</strong><br />
+		          <a href="mailto:beau@shipart.com">beau@shipart.com</a>
 		          </p>
 			  </blockquote>
-			  <p>For more information on the <strong>Denver -- Exclusives</strong> shuttle, contact:</p>
-			  <blockquote>
-			    <p><strong>Caitlin Coburn</strong><br />
-			    	International Shipping Coordinator/Special Projects<br />
-			    <a href="mailto:caitlin@shipart.com">caitlin@shipart.com</a></p>
-					<p>or</p>
-			    <p><strong>Erik Mikelsons</strong><br />
-			    	Domestic Shipping Coordinator/Storage<br />
-			    <a href="mailto:erik@shipart.com">erik@shipart.com</a></p>
-			  </blockquote>
-
 
 		</div> <!-- /main -->
 	<aside>
-    	<nav>
-        	<ul>
-          	<li class="active"><a href="shuttle-overview.php">Shuttle Services</a></li>
-            <li><a href="shuttle-sanfrancisco-losangeles.php">San Francisco / Los Angeles Shuttle</a></li>
-            <li><a href="shuttle-sanfrancisco-newyork.php">San Francisco / New York Shuttle</a></li>
-          </ul>
-        </nav>
-        <div class="container-slider" id="slides">
+
+    <div class="container-slider" id="slides">
 			<img src="images/pic-transport-shuttle.jpg" />
 		</div> <!-- /container-slider -->
+    <div class="container-callout__stage">
+      <div class="container-callout__text">
+        We are proud to announce our new climate warehouse in Livermore, CA
+      </div>
+      <a href="/livermore-warehouse" class="container-callout__image">
+        <img src="/images/callout-livermore.jpg">
+      </a>
+    </div>
 
 	</aside>
-  
+
   </div>  <!-- /container-common -->
 </section>
 <?php include 'includes/footer.php'; ?>

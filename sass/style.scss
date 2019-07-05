@@ -2,6 +2,7 @@
 @import 'partials/mixins';
 @import 'partials/media_query';
 @import 'partials/menu';
+@import 'partials/invoice';
 
 body {
 	line-height: 2em;
@@ -429,6 +430,10 @@ section.content #gallery li {
 	border: 5px solid #CDCDCD;
 	float: left;
 	margin: 0 15px 15px 0;
+
+	&:nth-child(3n) {
+		margin-right: 0;
+	}
 }
 
 section.content #gallery li:hover {
@@ -663,17 +668,28 @@ form.form-long {
 	margin-left: 570px;
 }
 
-.icons-social .fb {
-	display: inline-block;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	height: 50px;
-	width: 50px;
-	background-color: #e5dfd4;
-	background-image: url("images/sprite-icons.png");
-	background-position: 17px 11px;
-	background-repeat: no-repeat;
+.icons-social {
+	a {
+		display: inline-block;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		height: 50px;
+		width: 50px;
+		background-color: #e5dfd4;
+		background-position: 50%;
+		background-repeat: no-repeat;
+	}
+
+	.fb {
+		background-image: url('../svg/icon-facebook.svg');
+		background-size: 28%;
+	}
+
+	.instagram {
+		background-image: url('../svg/icon-instagram.svg');
+		background-size: 57%;
+	}
 }
 
 .icons-social a:hover {
@@ -728,12 +744,30 @@ form.form-long {
 
 /* end SLIDESHOW */
 
-section.content .wufoo {
-	li {
-		background: inherit;
-		padding: inherit;
-		text-align: left;
-		margin-bottom: 20px;
+.container-slider {
+	margin-bottom: 20px;
+}
+
+.container-callout {
+
+	&__stage {
+		border: 5px solid #d35b1d;
+	}
+
+	&__text {
+		padding: 20px;
+		background-color: #d35b1d;
+		color: white;
+		font-family: 'Arvo', serif;
 	}
 }
 
+.gallery {
+	&--pad-top1 {
+		padding-top: 80px;
+	}
+}
+
+img {
+	max-width: 100%;
+}
