@@ -83,11 +83,6 @@ Ext: 311
 
 <h4>Sales</h4>
 
-<p><strong>Amy Mutza</strong> <br>
-Project Manager<br>
-<a href="mailto:amy@shipart.com">amy@shipart.com</a><br>
-Ext: 312</p>
-
 <p><strong>William Emmert</strong><br>
 Project Manager<br>
 <a href="mailto:william@shipart.com">william@shipart.com</a><br>
@@ -115,8 +110,7 @@ Ext: 326</p>
 
 <p><strong>Aimee Harlib</strong><br>
 International Project Manager<br>
-<a href="mailto:aimee@shipart.com">aimee@shipart.com</a><br>
-Ext: 328</p>
+<a href="mailto:aimee@shipart.com">aimee@shipart.com</a>
 
 <p><strong>CK Dasho</strong><br>
 Senior Project Manager<br>
