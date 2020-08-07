@@ -18,7 +18,7 @@
       <li><a class="parent" href="/pay-invoice.php">Pay Invoice</a></li>
     </ul>
     <ul class="main" id="navigation_horiz">
-      <li class='has-sub'><a class="parent" href="/shuttle-overview.php">Shuttle Services</a>
+      <li><a class="parent" href="/shuttle-overview.php">Shuttle Services</a>
       </li>
       <li><a class="parent" href="/storage.php">Storage</a></li>
       <li class='has-sub'><a class="parent" href="/pc-overview.php">Packing / Crating</a>

@@ -63,7 +63,7 @@ We have many years of experience in all aspects of the airfreight industry. We a
 			  <p>For exports and imports from Denver, please contact: </p>
 			  <blockquote>
 			    <p><strong>Caitlin Coburn</strong><br />
-			    <a href="mailto:caitlin@shipart.com">caitlin@shipart.com</a></p>
+			    <a href="mailto:caitlin@sa-tdi.com">caitlin@sa-tdi.com</a></p>
 			  </blockquote>
 
 		</div> <!-- /main -->

@@ -43,8 +43,8 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 
 			  <p>For more information on shuttle dates for the <strong>NYC / San Francisco </strong>shuttle, contact:</p>
 			  <blockquote>
-		          <p><strong>Beau Casazza</strong><br />
-		          <a href="mailto:beau@shipart.com">beau@shipart.com</a>
+		          <p><strong>Micah Garcia</strong><br />
+		          <a href="mailto:Micah@shipart.com">Micah@shipart.com</a>
 		          </p>
 			  </blockquote>
 

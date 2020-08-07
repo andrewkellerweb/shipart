@@ -15,18 +15,18 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 <body class="page-inside two-col">
 
 <header class="main">
-    <div class="container-common clearfix">
-    <a class="logo" href="/">
-        <picture>
-          <img 
-            src="images/logo.png"
-            srcset="images/logo-2x.png 2x"
-            alt="Shipart"
-          />
-        </picture>
-      </a>
-    <?php include 'includes/navigation.php'; ?>
-    </div>
+  <div class="container-common clearfix">
+  <a class="logo" href="/">
+      <picture>
+        <img 
+          src="images/logo.png"
+          srcset="images/logo-2x.png 2x"
+          alt="Shipart"
+        />
+      </picture>
+    </a>
+  <?php include 'includes/navigation.php'; ?>
+  </div>
 </header>
 
 <section class="title">
@@ -67,8 +67,9 @@ To receive an estimate for San Francisco please contact:
 To receive an estimate for Denver please contact:
 </p>
 <p>
-<strong>Alison Ricketson</strong><br>
-<a href="mailto:alison@sa-tdi.com">alison@sa-tdi.com</a></p>
+
+<strong>Helen Bradley</strong><br>
+<a href="mailto:helen@sa-tdi.com">helen@sa-tdi.com</a></p>
 </p>
 
 	</div> <!-- /main -->

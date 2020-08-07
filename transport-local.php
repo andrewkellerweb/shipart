@@ -63,9 +63,10 @@ Local Transport featuring:
 
 			  <p>For Denver transportation contact: </p>
 			  <blockquote>
-			    <p><strong>Alison Ricketson</strong><br />
-			   	Domestic Shipping Coordinator/Storage<br />
-			    <a href="mailto:Alison@sa-tdi.com">Alison@sa-tdi.com</a></p>
+
+			    <p><strong>Wade Vander Wilt</strong><br />
+			   	Operations Manager / Dispatcher<br />
+			    <a href="mailto:wade@sa-tdi.com">wade@sa-tdi.com</a></p>
 			  </blockquote>
 
 		</div> <!-- /main -->

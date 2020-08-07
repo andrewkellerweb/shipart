@@ -16,3 +16,7 @@ RewriteRule ^ %1 [R,L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*?)/?$ $1.php [L]
+
+# 301 redirects
+Redirect 301 /shuttle-sanfrancisco-losangles http://shipart.com/shuttle-overview
+Redirect 301 /shuttle-sanfrancisco-newyork http://shipart.com/shuttle-overview

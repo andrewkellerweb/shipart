@@ -37,7 +37,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 <section class="content clearfix">
 	<div class="container-common">
 		<div class="main">
-Under the Transportation Security Administration program, Ship/Art International and Ship/Art Denver are both Certified Cargo Screening Facilities. This designation allows both companies to pre-screen air shipments traveling via passenger aircrafts prior to delivering to the airport, making the air shipping process more efficient and less costly. 
+Under the Transportation Security Administration program, Ship/Art International is a Certified Cargo Screening Facility. This designation allows Ship/Art International to pre-screen air shipments traveling via passenger aircrafts prior to delivering to the airport, making the air shipping process more efficient and less costly. 
 		</div> <!-- /main -->
 	<aside>
     

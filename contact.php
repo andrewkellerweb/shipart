@@ -74,9 +74,9 @@ Business Manager<br>
 <a href="mailto:kimf@shipart.com">kimf@shipart.com</a><br>
 Ext: 314</p>
 
-<p><strong>Shindy Pagba</strong><br>
-Director of Human Resources<br>
-<a href="mailto:shindy@shipart.com">shindy@shipart.com</a><br>
+<p><strong>Gigi Hassan</strong><br>
+Human Resources Associate<br>
+<a href="mailto:gigi@shipart.com">gigi@shipart.com</a><br>
 Ext: 311
 </p>
 
@@ -128,9 +128,14 @@ Truck Co-Manager and Installation Specialist<br>
 Ext: 325</p>
 
 <p><strong>Alice Dauchez</strong><br />
-Local Project Coordinator<br />
+Project Manager<br />
 <a href="mailto:alice@shipart.com">alice@shipart.com</a><br />
-Ext: 303</p>
+Ext: 312</p>
+
+<p><strong>Micah García</strong><br />
+Project Coordinator<br />
+<a href="mailto:micah@shipart.com">micah@shipart.com</a><br />
+Ext: 318</p> 
 
 <h4>Storage Billing</h4>
 <p><strong>Danielle Cocilova Bier</strong><br />
@@ -172,12 +177,12 @@ Ext: 329</p>
 	            COO/GM <br>
                 <a href="mailto:alan@sa-tdi.com">alan@sa-tdi.com</a></p>
 
-              <p><strong>Caitlin Coburn</strong><br>
-              Client Service Manager<br>
-              <a href="mailto:caitlin@sa-tdi.com">caitlin@sa-tdi.com</a></p>
+              <p><strong>Wade Vander Wilt</strong><br>
+              Operations Manager / Dispatcher<br>
+              <a href="mailto:wade@sa-tdi.com">wade@sa-tdi.com</a></p>
 
               <p><strong>Alison Ricketson</strong><br>
-              Senior Storage Registrar<br>
+              Business Manager<br>
               <a href="mailto:alison@sa-tdi.com">alison@sa-tdi.com</a></p>
 
               <p>&nbsp;</p>
