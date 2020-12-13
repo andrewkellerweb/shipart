@@ -62,8 +62,9 @@ We have many years of experience in all aspects of the airfreight industry. We a
 
 			  <p>For exports and imports from Denver, please contact: </p>
 			  <blockquote>
-			    <p><strong>Caitlin Coburn</strong><br />
-			    <a href="mailto:caitlin@sa-tdi.com">caitlin@sa-tdi.com</a></p>
+			    <p><strong>Hayley Hooper</strong><br>
+          Senior Client Service Representative / International Shipping Coordinator<br>
+          <a href="mailto:hayley@sa-tdi.com">hayley@sa-tdi.com</a></p>
 			  </blockquote>
 
 		</div> <!-- /main -->

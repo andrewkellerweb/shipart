@@ -54,9 +54,9 @@ Local Transport featuring:
 			    <a href="mailto:JC@shipart.com">JC@shipart.com</a></p>
 			    <p>OR</p>
 			    <p><strong>Alice Dauchez</strong><br />
-          Local Project Coordinator<br>
+          Project Manager<br>
 			    <a href="mailto:alice@shipart.com">alice@shipart.com</a><br>
-          Ext: 303
+          Ext: 312
           </p>
 
 			  </blockquote>

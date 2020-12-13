@@ -69,8 +69,8 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
         <div id="gallery" class="clearfix">
 		    <ul>
 		        <li>
-		            <a href="images/employment1.jpg" title="">
-		                <img src="thumbs/employment1.jpg"alt="" />
+		            <a href="images/group-photo-2019.jpg" title="">
+		                <img src="images/group-photo-2019.jpg"alt="" />
 		            </a>
 		        </li>
 		    </ul>
