@@ -271,6 +271,15 @@ header nav {
   border: none;
   line-height: 24px; }
 
+.invoice-form__fielditem {
+  margin-bottom: 10px; }
+
+.invoice-form__prefix {
+  margin-left: 5px; }
+
+.invoice-form__suffix {
+  font-size: 0.75rem; }
+
 body {
   line-height: 2em;
   color: #636262;

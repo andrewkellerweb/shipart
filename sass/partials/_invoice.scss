@@ -11,3 +11,18 @@
       line-height: 24px;
   }
 }
+
+.invoice-form {
+
+  &__fielditem {
+    margin-bottom: 10px;
+  }
+
+  &__prefix {
+    margin-left: 5px;
+  }
+
+  &__suffix {
+    font-size: 0.75rem;
+  }
+}

@@ -18,7 +18,7 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
 
 <?php include 'includes/header.php'; ?>
 
-<body class="page-inside two-col">
+<body class="page-inside">
 
 <header class="main">
     <div class="container-common clearfix">
@@ -120,7 +120,9 @@ Trained Professionals providing Fine Art Storage, Fine Art Shipping, Fine Art Tr
           </div>
           <div class="invoice-form__fielditem">
             <label class="invoice-form__label">Amount</label>
+            <span class="invoice-form__prefix">$</span>
             <input class="invoice-form__field" type="text" name="invoice_amount" />
+            <span class="invoice-form__suffix">Please Note: Amount field can only contain digits, a comma and a decimal point</span>
           </div>
           <div class="invoice-form__submititem">
             <input class="invoice-form__submitbtn" type="submit" value="Pay with Payment Pages" name="submit_button" />
